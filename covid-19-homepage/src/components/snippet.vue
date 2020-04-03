@@ -2,8 +2,8 @@
   <div>
     <b-card
       :title="title"
-      :img-src="this.imageSrc"
-      :img-alt="this.imageAlt"
+      :img-src="imageSrc"
+      :img-alt="imageAlt"
       img-top
       tag="article"
       style="max-width: 20rem; border:0"
