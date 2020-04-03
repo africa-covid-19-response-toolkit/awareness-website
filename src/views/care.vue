@@ -1,7 +1,7 @@
 <template>
     <Details>
         <template v-slot:Header>
-            <h2>HOW TO CARE FOR SOMEONE</h2>
+            <h2>{{ header | uppercase}}</h2>
         </template>
         <template v-slot:Body>
             <p>
@@ -19,6 +19,12 @@ import Details from "../components/details";
 export default {
    components:{
        Details
-   }
+   },
+   props: {
+       header: {
+           type: String,
+           default: 'How to care for someone'
+       }
+   }   
 }
 </script>
