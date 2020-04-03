@@ -1,7 +1,14 @@
 <template>
   <div id="app">
-    <router-view></router-view>
-  </div>
+    <b-container>
+      <router-view></router-view>
+      <footer>
+        <b-jumbotron>
+          <p>Footer goes here</p>
+        </b-jumbotron>
+      </footer>
+    </b-container>   
+  </div>  
 </template>
 
 <script>

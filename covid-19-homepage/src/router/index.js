@@ -1,7 +1,11 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
-import Home from "../components/home";
-import Details from "../components/details";
+import Home from "../views/home";
+import Care from "../views/care";
+import Protection from "../views/protection";
+import Sick from "../views/sick";
+import What from "../views/what";
+
 
 Vue.use(VueRouter);
 
@@ -12,9 +16,24 @@ const routes = [
     component: Home
   },
   {
-    path:'details',
-    name: 'Details',
-    component: Details
+    path:'/care',
+    name: 'Care',
+    component: Care
+  },
+  {
+    path:'/protection',
+    name: 'Protection',
+    component: Protection
+  },
+  {
+    path:'/sick',
+    name: 'Sick',
+    component: Sick
+  },
+  {
+    path:'/what',
+    name: 'What',
+    component: What
   }
 ];
 
