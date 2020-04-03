@@ -7,7 +7,10 @@ import "./registerServiceWorker";
 import router from "./router";
 
 Vue.config.productionTip = false;
-
+Vue.filter('uppercase', (value) => {
+      return value.toUpperCase();
+  }
+)
 new Vue({
   router,
   render: h => h(App)

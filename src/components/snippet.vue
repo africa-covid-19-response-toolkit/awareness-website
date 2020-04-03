@@ -9,10 +9,10 @@
       style="max-width: 20rem; border:0"
     >
       <b-card-text>
-        {{ this.snippetText }}
+        {{ snippetText }}
       </b-card-text>
 
-      <router-link :to="morePath">Read more</router-link>
+      <router-link :to="{name: morePath, params: {header: title}}">Read more</router-link>
     </b-card>
   </div>
 </template>
