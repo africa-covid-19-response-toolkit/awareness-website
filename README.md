@@ -1,5 +1,10 @@
 # covid-19-homepage
 
+## View current build (Builds from master branch)
+```
+ethiopia-covid19.com
+```
+
 ## Project setup
 ```
 npm install
