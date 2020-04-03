@@ -17,23 +17,27 @@ const routes = [
   },
   {
     path:'/care',
-    name: 'Care',
-    component: Care
+    name: 'care',
+    component: Care,
+    props: true,
   },
   {
     path:'/protection',
-    name: 'Protection',
-    component: Protection
+    name: 'protection',
+    component: Protection,
+    props: true,
   },
   {
     path:'/sick',
-    name: 'Sick',
-    component: Sick
+    name: 'sick',
+    component: Sick,
+    props: true,
   },
   {
     path:'/what',
-    name: 'What',
-    component: What
+    name: 'what',
+    component: What,
+    props: true,
   }
 ];
 
