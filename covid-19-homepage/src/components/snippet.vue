@@ -12,7 +12,7 @@
         {{ this.snippetText }}
       </b-card-text>
 
-      <router-link to="details">Read more</router-link>
+      <router-link :to="morePath">Read more</router-link>
     </b-card>
   </div>
 </template>
@@ -22,7 +22,8 @@ export default {
     title: String,
     imageSrc: String,
     imageAlt: String,
-    snippetText: String
+    snippetText: String,    
+    morePath: String
   }
 };
 </script>

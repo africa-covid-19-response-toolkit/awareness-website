@@ -1,9 +1,15 @@
-<template>
-  <b-container>
-    <router-link to="/">Back</router-link>
-    <div>
-      <slot name="Header"></slot>
+<template>    
+    <div>      
+      <b-jumbotron>
+        <div><router-link to="/" class="float-left">Back</router-link></div>
+        <div><slot name="Header"></slot></div>
+        
+      </b-jumbotron>      
       <slot name="Body"></slot>
-    </div>
-  </b-container>
+    </div> 
 </template>
+<script>
+export default {
+  
+}
+</script>
