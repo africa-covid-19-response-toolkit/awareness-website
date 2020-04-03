@@ -4,7 +4,7 @@
       <router-view></router-view>
       <footer>
         <b-jumbotron>
-          <p>Footer goes here</p>
+          <h3>Footer goes here</h3>
         </b-jumbotron>
       </footer>
     </b-container>   

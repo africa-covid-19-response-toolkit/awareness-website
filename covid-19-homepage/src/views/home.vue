@@ -1,7 +1,7 @@
 <template>
   <div>
       <b-jumbotron>
-        <p>Home page header goes here</p>
+        <h3>Home page header goes here</h3>
       </b-jumbotron>
       <b-row v-for="r in rows" :key="r">
         <b-col v-for="s in snippets.slice((r - 1) * 4, r * 4)" :key="s.title">
