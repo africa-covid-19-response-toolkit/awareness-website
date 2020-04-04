@@ -6,7 +6,6 @@ import Protection from "../views/protection";
 import Sick from "../views/sick";
 import What from "../views/what";
 
-
 Vue.use(VueRouter);
 
 const routes = [
@@ -16,34 +15,34 @@ const routes = [
     component: Home
   },
   {
-    path:'/care',
-    name: 'care',
+    path: "/care",
+    name: "care",
     component: Care,
-    props: true,
+    props: true
   },
   {
-    path:'/protection',
-    name: 'protection',
+    path: "/protection",
+    name: "protection",
     component: Protection,
-    props: true,
+    props: true
   },
   {
-    path:'/sick',
-    name: 'sick',
+    path: "/sick",
+    name: "sick",
     component: Sick,
-    props: true,
+    props: true
   },
   {
-    path:'/what',
-    name: 'what',
+    path: "/what",
+    name: "what",
     component: What,
-    props: true,
+    props: true
   }
 ];
 
 const router = new VueRouter({
   routes,
-  mode: 'history'
+  mode: "history"
 });
 
 export default router;
