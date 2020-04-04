@@ -1,6 +1,6 @@
 {
   "home_page_header": "Home page header goes here",
-  "footer_title": "Footer goes here",
+  "footer_title": "Developed by INSA",
   "read_more": "Read More",
   "back": "Back",
   "snippets": {
@@ -8,7 +8,7 @@
   	"what_detail": "COVID-19 is the new respiratory disease spreading around the world and it is caused by a coronavirus.",
   	"protection": "How to protect yourself",
   	"protection_detail": "There is currently no vaccine to prevent coronavirus disease 2009 (COVID-19).",
-  	"sick": "What to do if you are at sick",
+  	"sick": "What to do if you are sick",
   	"sick_detail": "A guide to help you make decisions and seek appropriate medical care.",
   	"care": "How to care for someone",
   	"care_detail": "Monitor the person for worsening symptoms, know the emergency warning signs."
