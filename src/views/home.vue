@@ -28,7 +28,6 @@
 </template>
 <script>
 import Snippet from "../components/snippet";
-import { mapGetters, mapMutations } from "vuex";
 
 export default {
   components: {
@@ -69,14 +68,10 @@ export default {
       ]
     };
   },
-  methods: {
-    ...mapMutations(["setLocale"])
-  },
   computed: {
     rows() {
       return Math.ceil(this.snippets.length / 4);
-    },
-    ...mapGetters(["getLocale"])
+    }
   }
 };
 </script>
