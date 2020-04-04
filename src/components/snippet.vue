@@ -12,7 +12,9 @@
         {{ snippetText }}
       </b-card-text>
 
-      <router-link :to="{name: morePath, params: {header: title}}">Read more</router-link>
+      <router-link :to="{ name: morePath, params: { header: title } }">{{
+        $t("read_more")
+      }}</router-link>
     </b-card>
   </div>
 </template>
@@ -22,7 +24,7 @@ export default {
     title: String,
     imageSrc: String,
     imageAlt: String,
-    snippetText: String,    
+    snippetText: String,
     morePath: String
   }
 };

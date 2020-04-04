@@ -4,16 +4,15 @@
       <router-view></router-view>
       <footer>
         <b-jumbotron>
-          <h3>Footer goes here</h3>
+          <h3>{{ $t("footer_title") }}</h3>
         </b-jumbotron>
       </footer>
-    </b-container>   
-  </div>  
+    </b-container>
+  </div>
 </template>
 
 <script>
-
-export default {  
+export default {
   name: "app"
 };
 </script>
