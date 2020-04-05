@@ -1,18 +1,10 @@
 <template>
   <styled-b-jumbotron>
-    <b-img :src="imgSrc" fluid alt=""></b-img>
-    <StyledBCard />
+    <b-img :src="imgSrc"></b-img>
   </styled-b-jumbotron>
 </template>
 <script>
-import { StyledBJumbotron } from "../styles/bootstrap/StyledBJumbotron";
-import { StyledBCard } from "../styles/bootstrap/StyledBCard";
-
 export default {
-  components: {
-    "styled-b-jumbotron": StyledBJumbotron,
-    StyledBCard
-  },
   props: {
     imgSrc: {
       type: String,
