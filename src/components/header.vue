@@ -1,6 +1,6 @@
 <template>
   <styled-b-jumbotron>
-    <b-img :src="imgSrc"></b-img>
+    <b-img :src="imgSrc" fluid></b-img>
   </styled-b-jumbotron>
 </template>
 <script>
