@@ -1,6 +1,8 @@
 import "@babel/polyfill";
 import "mutationobserver-shim";
 import Vue from "vue";
+import { ThemeProvider } from "vue-styled-components";
+
 import "./plugins/bootstrap-vue";
 import App from "./app.vue";
 import "./registerServiceWorker";
@@ -11,6 +13,7 @@ Vue.config.productionTip = false;
 Vue.filter("uppercase", value => {
   return value.toUpperCase();
 });
+Vue.component("theme-provider", ThemeProvider);
 new Vue({
   i18n,
   router,

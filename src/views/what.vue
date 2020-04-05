@@ -1,7 +1,7 @@
 <template>
   <Details>
     <template v-slot:Header>
-      <h2>{{ header | uppercase }}</h2>
+      <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
       <p>{{ $t("what") }}</p>
@@ -10,14 +10,16 @@
 </template>
 <script>
 import Details from "../components/details";
+import Header from "../components/header";
 export default {
   components: {
-    Details
+    Details,
+    Header
   },
   props: {
-    header: {
+    imgSrc: {
       type: String,
-      default: "What is COVID-19?"
+      default: `${process.env.BASE_URL}img/icons/what-is-covid-head.svg`
     }
   }
 };
