@@ -5,15 +5,10 @@
         <StyledNav>
           <nav>
             <StyledBrand>
-              <b-list-group horizontal>
-                <b-list-group-item class="bg-transparent">
-                  <b-img :src="imgSrc" fluid alt=""></b-img
-                ></b-list-group-item>
-                <b-list-group-item class="bg-transparent">
-                  An official website of the Ethiopian
-                  Government</b-list-group-item
-                >
-                <b-list-group-item class="bg-transparent">
+              <b-row class="p-1 m-0 text-left" align-v="center">
+                <b-col col lg="1" class="pr-0"> <b-img :src="imgSrc"/></b-col>
+                <b-col col lg="8" class="pl-0"> An official website </b-col>
+                <b-col col lg="3">
                   <select v-model="$i18n.locale">
                     <option
                       v-for="(lang, i) in langs"
@@ -22,8 +17,8 @@
                       >{{ lang.label }}</option
                     >
                   </select>
-                </b-list-group-item>
-              </b-list-group>
+                </b-col>
+              </b-row>
             </StyledBrand>
           </nav>
         </StyledNav>
