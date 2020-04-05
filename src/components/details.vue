@@ -1,14 +1,19 @@
 <template>
   <div>
-    <b-jumbotron>
-      <div>
-        <router-link to="/" class="float-left">{{ $t("back") }}</router-link>
-      </div>
-      <div><slot name="Header"></slot></div>
-    </b-jumbotron>
+    <router-link to="/" class="float-left">
+      <b-img :src="backImgSrc" style="height: 20px" fluid alt=""></b-img>
+    </router-link>
+    <div><slot name="Header"></slot></div>
     <slot name="Body"></slot>
   </div>
 </template>
 <script>
-export default {};
+export default {
+  props: {
+    backImgSrc: {
+      type: String,
+      default: `${process.env.BASE_URL}img/icons/back-btn.svg`
+    }
+  }
+};
 </script>
