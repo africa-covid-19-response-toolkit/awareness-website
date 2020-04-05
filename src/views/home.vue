@@ -1,18 +1,7 @@
 <template>
   <div>
-    <template>
-      <div class="locale-changer">
-        <select v-model="$i18n.locale">
-          <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang">{{
-            lang
-          }}</option>
-        </select>
-      </div>
-    </template>
-    <b-jumbotron>
-      <h3>{{ $t("home_page_header") }}</h3>
-    </b-jumbotron>
-    <b-row v-for="r in rows" :key="r">
+    <Header />
+    <b-row no-gutters v-for="r in rows" :key="r">
       <b-col v-for="s in snippets.slice((r - 1) * 4, r * 4)" :key="s.titleKey">
         <Snippet
           :title="$t(s.titleKey)"
@@ -20,6 +9,8 @@
           :imageAlt="s.imageAlt"
           :snippetText="$t(s.snippetText)"
           :morePath="s.morePath"
+          :buttonText="$t(s.buttonText)"
+          :buttonUrl="s.buttonUrl"
         >
         </Snippet>
       </b-col>
@@ -28,42 +19,52 @@
 </template>
 <script>
 import Snippet from "../components/snippet";
+import Header from "../components/header";
 
 export default {
   components: {
-    Snippet
+    Snippet,
+    Header
   },
   data() {
+    const publicPath = process.env.BASE_URL;
     return {
-      langs: ["am", "en"],
       snippets: [
         {
           titleKey: "snippets.what",
-          imageSrc: "https://picsum.photos/200?image=100",
+          imageSrc: `${publicPath}img/icons/what_icon.svg`,
           imageAlt: "icon",
           morePath: "what",
-          snippetText: "snippets.what_detail"
+          snippetText: "snippets.what_detail",
+          buttonText: "snippets.community_form",
+          buttonUrl: "https://community.covid19.et/"
         },
         {
           titleKey: "snippets.protection",
-          imageSrc: "https://picsum.photos/200?image=200",
+          imageSrc: `${publicPath}img/icons/protect_icon.svg`,
           imageAlt: "icon",
           morePath: "protection",
-          snippetText: "snippets.protection_detail"
+          snippetText: "snippets.protection_detail",
+          buttonText: "snippets.passenger_form",
+          buttonUrl: "https://passengers.covid19.et/"
         },
         {
           titleKey: "snippets.sick",
-          imageSrc: "https://picsum.photos/200?image=300",
+          imageSrc: `${publicPath}img/icons/sick_icon.svg`,
           imageAlt: "icon",
           morePath: "sick",
-          snippetText: "snippets.sick_detail"
+          snippetText: "snippets.sick_detail",
+          buttonText: "snippets.public_report",
+          buttonUrl: "https://www.covid19.et/Covid-19/ReportCase/Create"
         },
         {
           titleKey: "snippets.care",
-          imageSrc: "https://picsum.photos/200?image=400",
+          imageSrc: `${publicPath}img/icons/care_icon.svg`,
           imageAlt: "icon",
           morePath: "care",
-          snippetText: "snippets.care_detail"
+          snippetText: "snippets.care_detail",
+          buttonText: "snippets.volunteer_form",
+          buttonUrl: "https://www.covid19.et/Covid-19/Volenteer/Create"
         }
       ]
     };
