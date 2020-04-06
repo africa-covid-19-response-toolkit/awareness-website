@@ -21,11 +21,7 @@
           </nav>
         </StyledNav>
         <router-view></router-view>
-        <b-jumbotron class="bg-transparent">
-          <app-footer>
-            {{ $t("footer_title") }}
-          </app-footer>
-        </b-jumbotron>
+        <app-footer>{{ $t("footer_title") }}</app-footer>
       </b-container>
     </app-container>
   </theme-provider>
