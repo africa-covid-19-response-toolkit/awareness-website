@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <HomeHeader />
-    <div style="background: #fafafa; padding-bottom: 50px">
+  <b-col>
+    <b-row> <HomeHeader /> </b-row>
+    <b-row style="background: #fafafa; padding-bottom: 50px">
       <b-row no-gutters>
         <b-col v-for="s in snippets" :key="s.titleKey">
           <Snippet
@@ -16,8 +16,8 @@
         </b-col>
         <b-col></b-col>
       </b-row>
-    </div>
-  </div>
+    </b-row>
+  </b-col>
 </template>
 <script>
 import Snippet from "../components/snippet";
