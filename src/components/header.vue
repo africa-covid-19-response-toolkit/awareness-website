@@ -1,7 +1,5 @@
 <template>
-  <styled-b-jumbotron>
-    <b-img :src="imgSrc" fluid></b-img>
-  </styled-b-jumbotron>
+  <b-img :src="imgSrc" fluid></b-img>
 </template>
 <script>
 export default {
