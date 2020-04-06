@@ -21,10 +21,7 @@
           }}</b-card-text>
         </b-col>
         <b-col class="pt-2">
-          <router-link
-            :to="{ name: morePath, params: { header: title } }"
-            target="_blank"
-          >
+          <router-link :to="{ name: morePath, params: { header: title } }">
             <StyledLink>{{ $t("read_more") }}</StyledLink>
           </router-link>
         </b-col>
