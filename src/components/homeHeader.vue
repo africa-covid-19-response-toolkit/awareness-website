@@ -4,22 +4,20 @@
       <b-col>
         <b-row>
           <b-col col lg="2">
-            <b-img :src="imgHeroSrc" fluid></b-img>
+            <b-img :src="mohLogoWorld" fluid></b-img>
           </b-col>
           <b-col col lg="2">
-            <b-img :src="imgHeroSrc" fluid></b-img>
+            <b-img :src="mohLogoText" fluid></b-img>
           </b-col>
         </b-row>
-        <b-col align-v="center">
+        <b-col class="mx-5 my-5" align-v="center">
           <b-col v-for="b in buttons" :key="b.text" class="py-2" col lg="8">
             <b-button
               block
-              pill
-              size="xxl"
-              variant="light"
+              size="lg"
+              style="background-color: #EDF0FF; border: 0.75px solid #3D3C99"
               :href="b.url"
               :target="b.target"
-              style="background-color: #EDF0FF; border: '0.75px solid #3D3C99'"
               :to="
                 b.external
                   ? null
