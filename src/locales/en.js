@@ -3,6 +3,11 @@ export default {
   footer_title: "Developed by",
   read_more: "Read More",
   back: "Back",
+  buttons: {
+    sick: "What to do if you are sick",
+    protection: "How to protect yourself",
+    monitoring: "Montoring Platform"
+  },
   snippets: {
     what: "What is COVID-19?",
     what_detail:

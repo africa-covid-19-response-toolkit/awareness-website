@@ -3,6 +3,11 @@ export default {
   footer_title: "በኢንሳ የተገነባ",
   read_more: "ተጨማሪ ያንብቡ",
   back: "ተመለስ",
+  buttons: {
+    sick: "በሂደት ላይ",
+    protection: "በሂደት ላይ",
+    monitoring: "በሂደት ላይ"
+  },
   snippets: {
     what: "በሂደት ላይ",
     what_detail: "በሂደት ላይ",
