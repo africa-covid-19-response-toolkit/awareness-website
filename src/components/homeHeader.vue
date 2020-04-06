@@ -17,19 +17,16 @@
               pill
               size="xxl"
               variant="light"
+              :href="b.url"
+              :target="b.target"
               style="background-color: #EDF0FF; border: '0.75px solid #3D3C99'"
+              :to="
+                b.external
+                  ? null
+                  : { name: b.morePath, params: { header: b.text } }
+              "
             >
-              <div v-if="b.external">
-                <a target="_blank" :href="b.url" />
-                <StyledLabel>{{ $t(b.text) }}</StyledLabel>
-              </div>
-              <div v-else>
-                <router-link
-                  :to="{ name: b.morePath, params: { header: b.text } }"
-                >
-                  <StyledLabel>{{ $t(b.text) }}</StyledLabel>
-                </router-link>
-              </div>
+              <StyledLabel>{{ $t(b.text) }}</StyledLabel>
             </b-button>
           </b-col>
         </b-col>
@@ -62,6 +59,7 @@ export default {
       {
         text: "buttons.monitoring",
         url: "https://passengers.covid19.et/",
+        target: "_blank",
         external: true
       }
     ]
