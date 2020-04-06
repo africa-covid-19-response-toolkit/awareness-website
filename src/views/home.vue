@@ -1,6 +1,6 @@
 <template>
   <div>
-    <Header />
+    <HomeHeader />
     <b-row no-gutters v-for="r in rows" :key="r">
       <b-col v-for="s in snippets.slice((r - 1) * 4, r * 4)" :key="s.titleKey">
         <Snippet
@@ -19,12 +19,12 @@
 </template>
 <script>
 import Snippet from "../components/snippet";
-import Header from "../components/header";
+import HomeHeader from "../components/homeHeader";
 
 export default {
   components: {
     Snippet,
-    Header
+    HomeHeader
   },
   data() {
     const publicPath = process.env.BASE_URL;
