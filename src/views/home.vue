@@ -1,7 +1,7 @@
 <template>
-  <div>
-    <Header />
-    <div style="background: #fafafa; padding-bottom: 50px">
+  <b-col>
+    <b-row> <HomeHeader /> </b-row>
+    <b-row style="background: #fafafa; padding-bottom: 50px">
       <b-row no-gutters>
         <b-col v-for="s in snippets" :key="s.titleKey">
           <Snippet
@@ -16,17 +16,17 @@
         </b-col>
         <b-col></b-col>
       </b-row>
-    </div>
-  </div>
+    </b-row>
+  </b-col>
 </template>
 <script>
 import Snippet from "../components/snippet";
-import Header from "../components/header";
+import HomeHeader from "../components/homeHeader";
 
 export default {
   components: {
     Snippet,
-    Header
+    HomeHeader
   },
   data() {
     const publicPath = process.env.BASE_URL;

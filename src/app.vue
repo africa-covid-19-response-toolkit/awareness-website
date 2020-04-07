@@ -5,12 +5,10 @@
         <StyledNav>
           <nav>
             <b-row class="p-1 m-0 text-left" align-v="center">
-              <b-col col lg="1" class="pr-0">
-                <b-img :src="imgSrc" />
-              </b-col>
-              <b-col col lg="8" class="pl-0">An official website</b-col>
+              <b-col col lg="1" class="pr-0"> <b-img :src="imgSrc"/></b-col>
+              <b-col col lg="8" class="pl-0"> An official website </b-col>
               <b-col col lg="3">
-                <select v-model="$i18n.locale">
+                <select v-model="$i18n.locale" class="bg-light">
                   <option
                     v-for="(lang, i) in langs"
                     :key="`Lang${i}`"
