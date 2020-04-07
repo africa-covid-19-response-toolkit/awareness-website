@@ -1,17 +1,17 @@
 <template>
   <b-container>
     <b-row>
-      <b-col>
-        <b-row>
-          <b-col col lg="2">
-            <b-img :src="mohLogoWorld" fluid></b-img>
+      <b-col sm>
+        <b-row class="align-items-center justify-content-center mt-5">
+          <b-col col class="col-3 pr-md-0">
+            <b-img :src="mohLogoWorld" :width="70" fluid></b-img>
           </b-col>
-          <b-col col lg="2">
+          <b-col col class="col-6 pl-0">
             <b-img :src="mohLogoText" fluid></b-img>
           </b-col>
         </b-row>
-        <b-col class="mx-5 my-5" align-v="center">
-          <b-col v-for="b in buttons" :key="b.text" class="py-2" col lg="8">
+        <b-row class="my-5 justify-content-center" align-v="center">
+          <b-col v-for="b in buttons" :key="b.text" class="py-2" sm="8">
             <b-button
               block
               size="lg"
@@ -27,9 +27,9 @@
               <StyledLabel>{{ $t(b.text) }}</StyledLabel>
             </b-button>
           </b-col>
-        </b-col>
+        </b-row>
       </b-col>
-      <b-col>
+      <b-col sm px="0">
         <b-img :src="imgHeroSrc" fluid></b-img>
       </b-col>
     </b-row>
