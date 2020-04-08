@@ -39,7 +39,7 @@ export default {
   props: {
     imgSrc: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/Flag.svg`
+      default: `${process.env.BASE_URL}img/Flag.svg`
     }
   },
   components: {

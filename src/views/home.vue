@@ -34,14 +34,14 @@ export default {
       snippets: [
         {
           titleKey: "snippets.what",
-          imageSrc: `${publicPath}img/icons/what_icon.svg`,
+          imageSrc: `${publicPath}img/what_icon.svg`,
           imageAlt: "icon",
           morePath: "what",
           snippetText: "snippets.what_detail"
         },
         {
           titleKey: "snippets.care",
-          imageSrc: `${publicPath}img/icons/care_icon.svg`,
+          imageSrc: `${publicPath}img/care_icon.svg`,
           imageAlt: "icon",
           morePath: "care",
           snippetText: "snippets.care_detail"
