@@ -19,7 +19,7 @@ export default {
   props: {
     imgSrc: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/what-to-do-if-head.svg`
+      default: `${process.env.BASE_URL}img/what-to-do-if-head.svg`
     }
   }
 };
