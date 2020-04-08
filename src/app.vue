@@ -1,25 +1,27 @@
 <template>
   <theme-provider :theme="theme">
     <app-container id="app">
+      <StyledNav>
+        <nav>
+          <b-row class="p-1 m-0 text-left" align-v="center">
+            <b-col col lg="9" class="pl-0">
+              <b-img :src="imgSrc" />&nbsp; An offical website of the Ethiopian
+              government
+            </b-col>
+            <b-col col lg="3">
+              <select v-model="$i18n.locale" class="bg-light">
+                <option
+                  v-for="(lang, i) in langs"
+                  :key="`Lang${i}`"
+                  :value="lang.name"
+                  >{{ lang.label }}</option
+                >
+              </select>
+            </b-col>
+          </b-row>
+        </nav>
+      </StyledNav>
       <b-container>
-        <StyledNav>
-          <nav>
-            <b-row class="p-1 m-0 text-left" align-v="center">
-              <b-col col lg="1" class="pr-0"> <b-img :src="imgSrc"/></b-col>
-              <b-col col lg="8" class="pl-0"> An official website </b-col>
-              <b-col col lg="3">
-                <select v-model="$i18n.locale" class="bg-light">
-                  <option
-                    v-for="(lang, i) in langs"
-                    :key="`Lang${i}`"
-                    :value="lang.name"
-                    >{{ lang.label }}</option
-                  >
-                </select>
-              </b-col>
-            </b-row>
-          </nav>
-        </StyledNav>
         <router-view></router-view>
         <app-footer>{{ $t("footer_title") }}</app-footer>
       </b-container>
