@@ -25,5 +25,8 @@ export default {
   care: "በሂደት ላይ",
   protection: "በሂደት ላይ",
   sick: "በሂደት ላይ",
-  what: "በሂደት ላይ"
+  what: "በሂደት ላይ",
+  page_not_found_title: "ገጹ አልተገኘም",
+  page_not_found_desc:
+    "ይቅርታ ፣ የሚፈልጉትን ገጽ ማግኘት አልቻልንም ፡፡ ከሚከተሉት ገጾች ውስጥ አንዱን ይሞክሩ"
 };
