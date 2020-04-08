@@ -9,7 +9,7 @@ export default {
     primary: "black",
     secondary: "white",
     tertiary: "f5f5f5",
-    background: "darkBlue",
+    background: "#0445b0",
     footer: "#e0e0e0",
     footerFont: "#696c7a"
   },
@@ -17,5 +17,9 @@ export default {
     light: "200",
     medium: "500",
     bold: "600"
+  },
+  paddings: {
+    paddingRight: "10px",
+    paddingLeft: "10px"
   }
 };

@@ -1,6 +1,6 @@
 export default {
   home_page_header: "መነሻ ገጽ",
-  footer_title: "በኢንሳ የተገነባ",
+  footer_title: "© 2020 - በኢንፎርሜሽን መረብ ደህንነት ኤጀንሲ የበለፀገ",
   read_more: "ተጨማሪ ያንብቡ",
   back: "ተመለስ",
   buttons: {

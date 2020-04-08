@@ -42,10 +42,16 @@ export default {
     StyledLabel
   },
   data: () => ({
-    imgHeroSrc: `${process.env.BASE_URL}img/icons/hero-img.svg`,
+    imgHeroSrc: `${process.env.BASE_URL}img/hero.svg`,
     mohLogoText: `${process.env.BASE_URL}img/moh-logo-text.png`,
     mohLogoWorld: `${process.env.BASE_URL}img/moh-logo-world.png`,
     buttons: [
+      {
+        text: "buttons.monitoring",
+        url: "https://covid19.et/covid-19",
+        target: "_blank",
+        external: true
+      },
       {
         text: "buttons.protection",
         morePath: "protection"
@@ -53,12 +59,6 @@ export default {
       {
         text: "buttons.sick",
         morePath: "sick"
-      },
-      {
-        text: "buttons.monitoring",
-        url: "https://passengers.covid19.et/",
-        target: "_blank",
-        external: true
       }
     ]
   })
