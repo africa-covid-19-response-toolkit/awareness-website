@@ -12,7 +12,7 @@ export default {
   props: {
     backImgSrc: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/back-btn.svg`
+      default: `${process.env.BASE_URL}img/back-btn.svg`
     }
   }
 };

@@ -43,7 +43,7 @@ export default {
     morePath: String,
     arrowImg: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/arrow-btn.svg`
+      default: `${process.env.BASE_URL}img/arrow-btn.svg`
     }
   }
 };

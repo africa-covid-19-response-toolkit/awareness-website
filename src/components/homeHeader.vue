@@ -42,7 +42,7 @@ export default {
     StyledLabel
   },
   data: () => ({
-    imgHeroSrc: `${process.env.BASE_URL}img/icons/hero-img.svg`,
+    imgHeroSrc: `${process.env.BASE_URL}img/hero-img.svg`,
     mohLogoText: `${process.env.BASE_URL}img/moh-logo-text.png`,
     mohLogoWorld: `${process.env.BASE_URL}img/moh-logo-world.png`,
     buttons: [
