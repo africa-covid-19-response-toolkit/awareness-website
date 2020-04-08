@@ -1,12 +1,12 @@
 export default {
   home_page_header: "Home page header goes here",
-  footer_title: "Developed by",
+  footer_title: "© 2020 - Developed by INSA",
   read_more: "Read More",
   back: "Back",
   buttons: {
+    monitoring: "Montoring Platform",
     sick: "What to do if you are sick",
-    protection: "How to protect yourself",
-    monitoring: "Montoring Platform"
+    protection: "How to protect yourself"
   },
   snippets: {
     what: "What is COVID-19?",
