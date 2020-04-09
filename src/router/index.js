@@ -5,6 +5,7 @@ import Care from "../views/care";
 import Protection from "../views/protection";
 import Sick from "../views/sick";
 import What from "../views/what";
+import Resources from "../views/resources";
 
 Vue.use(VueRouter);
 
@@ -36,6 +37,12 @@ const routes = [
     path: "/what",
     name: "what",
     component: What,
+    props: true
+  },
+  {
+    path: "/resources",
+    name: "resources",
+    component: Resources,
     props: true
   }
 ];

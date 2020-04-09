@@ -16,11 +16,10 @@ export default {
     Details,
     Header
   },
-  props: {
-    imgSrc: {
-      type: String,
-      default: `${process.env.BASE_URL}img/what-is-covid-head.svg`
-    }
+  data() {
+    return {
+      imgSrc: `${process.env.BASE_URL}img/what-is-covid-head.svg`
+    };
   }
 };
 </script>
