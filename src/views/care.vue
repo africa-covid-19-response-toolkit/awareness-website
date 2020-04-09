@@ -4,17 +4,19 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
-      <p>{{ $t("care") }}</p>
+      <vue-markdown>{{ $t("care") }}</vue-markdown>
     </template>
   </Details>
 </template>
 <script>
 import Details from "../components/details";
 import Header from "../components/header";
+import VueMarkdown from "vue-markdown";
 export default {
   components: {
     Details,
-    Header
+    Header,
+    VueMarkdown
   },
   props: {
     imgSrc: {
