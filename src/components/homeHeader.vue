@@ -56,7 +56,7 @@ export default {
       },
       {
         text: "buttons.monitoring",
-        url: "https://passengers.covid19.et/",
+        url: "https://www.covid19.et/Covid-19/Home/Dashboard/am",
         target: "_blank",
         external: true
       }

@@ -9,11 +9,10 @@
 </template>
 <script>
 export default {
-  props: {
-    backImgSrc: {
-      type: String,
-      default: `${process.env.BASE_URL}img/back-btn.svg`
-    }
+  data() {
+    return {
+      backImgSrc: `${process.env.BASE_URL}img/back-btn.svg`
+    };
   }
 };
 </script>
