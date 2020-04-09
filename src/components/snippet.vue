@@ -11,7 +11,7 @@
         </b-col>
         <b-col class="pt-3">
           <b-card-text
-            style="font-size: 20px; font-weight: bold; text-align:left"
+            style="font-size: 20px; font-weight: bold; text-align:center"
             >{{ title }}</b-card-text
           >
         </b-col>

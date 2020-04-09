@@ -14,7 +14,6 @@
             :buttonUrl="s.buttonUrl"
           ></Snippet>
         </b-col>
-        <b-col></b-col>
       </b-row>
     </b-row>
   </b-col>
@@ -45,13 +44,20 @@ export default {
           imageAlt: "icon",
           morePath: "care",
           snippetText: "snippets.care_detail"
+        },
+        {
+          titleKey: "snippets.resources",
+          imageSrc: `${publicPath}img/resources_icon.svg`,
+          imageAlt: "icon",
+          morePath: "resources",
+          snippetText: "snippets.resources_detail"
         }
       ]
     };
   },
   computed: {
     rows() {
-      return Math.ceil(this.snippets.length / 4);
+      return Math.ceil(this.snippets.length / 3);
     }
   }
 };
