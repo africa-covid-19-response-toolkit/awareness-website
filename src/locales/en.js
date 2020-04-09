@@ -2,7 +2,7 @@ export default {
   home_page_header: "Home page header goes here",
   footer_title: "Developed by",
   read_more: "Read More",
-  back: "Back",
+  back: "Home",
   buttons: {
     sick: "What to do if you are sick",
     protection: "How to protect yourself",
