@@ -2,7 +2,7 @@ export default {
   home_page_header: "መነሻ ገጽ",
   footer_title: "በኢንሳ የተገነባ",
   read_more: "ተጨማሪ ያንብቡ",
-  back: "ተመለስ",
+  back: "መነሻ ገጽ",
   buttons: {
     sick: "በሂደት ላይ",
     protection: "በሂደት ላይ",

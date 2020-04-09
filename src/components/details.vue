@@ -1,7 +1,7 @@
 <template>
   <div>
-    <router-link to="/" class="float-left">
-      <b-img :src="backImgSrc" style="height: 20px" fluid alt=""></b-img>
+    <router-link to="/" class="float-left my-2">
+      &lt; {{ $t("back") }}
     </router-link>
     <div><slot name="Header"></slot></div>
     <slot name="Body"></slot>

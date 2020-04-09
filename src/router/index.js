@@ -9,10 +9,12 @@ import NotFound from "../views/not-found";
 
 Vue.use(VueRouter);
 
+export const HOME_ROUTE_NAME = "Home";
+
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: HOME_ROUTE_NAME,
     component: Home
   },
   {

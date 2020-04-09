@@ -7,7 +7,7 @@
         <p>{{ $t("page_not_found_desc") }}</p>
       </b-col>
     </b-row>
-    <ResourceLinks />
+    <ResourceLinks :showHomeBtn="true" />
   </b-col>
 </template>
 <script>
