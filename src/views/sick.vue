@@ -16,11 +16,10 @@ export default {
     Details,
     Header
   },
-  props: {
-    imgSrc: {
-      type: String,
-      default: `${process.env.BASE_URL}img/icons/what-to-do-if-head.svg`
-    }
+  data() {
+    return {
+      imgSrc: `${process.env.BASE_URL}img/what-to-do-if-head.svg`
+    };
   }
 };
 </script>

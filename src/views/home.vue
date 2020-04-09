@@ -14,7 +14,6 @@
             :buttonUrl="s.buttonUrl"
           ></Snippet>
         </b-col>
-        <b-col></b-col>
       </b-row>
     </b-row>
   </b-col>
@@ -34,24 +33,31 @@ export default {
       snippets: [
         {
           titleKey: "snippets.what",
-          imageSrc: `${publicPath}img/icons/what_icon.svg`,
+          imageSrc: `${publicPath}img/what_icon.svg`,
           imageAlt: "icon",
           morePath: "what",
           snippetText: "snippets.what_detail"
         },
         {
           titleKey: "snippets.care",
-          imageSrc: `${publicPath}img/icons/care_icon.svg`,
+          imageSrc: `${publicPath}img/care_icon.svg`,
           imageAlt: "icon",
           morePath: "care",
           snippetText: "snippets.care_detail"
+        },
+        {
+          titleKey: "snippets.resources",
+          imageSrc: `${publicPath}img/resources_icon.svg`,
+          imageAlt: "icon",
+          morePath: "resources",
+          snippetText: "snippets.resources_detail"
         }
       ]
     };
   },
   computed: {
     rows() {
-      return Math.ceil(this.snippets.length / 4);
+      return Math.ceil(this.snippets.length / 3);
     }
   }
 };
