@@ -5,14 +5,17 @@ import Care from "../views/care";
 import Protection from "../views/protection";
 import Sick from "../views/sick";
 import What from "../views/what";
+import NotFound from "../views/not-found";
 import Resources from "../views/resources";
 
 Vue.use(VueRouter);
 
+export const HOME_ROUTE_NAME = "Home";
+
 const routes = [
   {
     path: "/",
-    name: "Home",
+    name: HOME_ROUTE_NAME,
     component: Home
   },
   {
@@ -44,6 +47,11 @@ const routes = [
     name: "resources",
     component: Resources,
     props: true
+  },
+  {
+    path: "*",
+    name: "Not Found",
+    component: NotFound
   }
 ];
 
