@@ -12,7 +12,7 @@ export default {
   data() {
     return {
       backImgSrc: `${process.env.BASE_URL}img/back-btn.svg`
-    }
+    };
   }
 };
 </script>
