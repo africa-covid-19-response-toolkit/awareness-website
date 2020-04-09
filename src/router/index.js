@@ -6,6 +6,7 @@ import Protection from "../views/protection";
 import Sick from "../views/sick";
 import What from "../views/what";
 import NotFound from "../views/not-found";
+import Resources from "../views/resources";
 
 Vue.use(VueRouter);
 
@@ -42,10 +43,15 @@ const routes = [
     props: true
   },
   {
+    path: "/resources",
+    name: "resources",
+    component: Resources,
+    props: true
+  },
+  {
     path: "*",
     name: "Not Found",
-    component: NotFound,
-    props: true
+    component: NotFound
   }
 ];
 

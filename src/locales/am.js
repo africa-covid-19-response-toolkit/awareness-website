@@ -17,10 +17,12 @@ export default {
     sick_detail: "በሂደት ላይ",
     care: "በሂደት ላይ",
     care_detail: "በሂደት ላይ",
+    resources: "ጠቃሚ መረጃዎች",
+    resources_detail: "የተለያዩ ጠቃሚ መረጃዎችን እና አትመው ማሰራጨት የሚችሏቸው ጽሁፎችን እዚህ ማግኘት",
     community_form: "ኮሚኒቲ ቅጽ",
-    passenger_form: "ተንሸራታች FORM",
-    public_report: "የሕትመት ሪፖርት",
-    volunteer_form: "ፈቃደኛ FORM"
+    passenger_form: "የመንገደኛ ቅጽ",
+    public_report: "ጥቆማ ያድርጉ",
+    volunteer_form: "የፈቃድ አገልግሎት ቅጽ"
   },
   care: "በሂደት ላይ",
   protection: "በሂደት ላይ",
