@@ -5,10 +5,10 @@
       <b-row no-gutters>
         <b-col v-for="s in snippets" :key="s.titleKey">
           <Snippet
-            :title="$t(s.titleKey)"
+            :title="s.titleKey"
             :imageSrc="s.imageSrc"
             :imageAlt="s.imageAlt"
-            :snippetText="$t(s.snippetText)"
+            :snippetText="s.snippetText"
             :morePath="s.morePath"
             :buttonText="$t(s.buttonText)"
             :buttonUrl="s.buttonUrl"
@@ -19,8 +19,8 @@
   </b-col>
 </template>
 <script>
-import Snippet from "../components/snippet";
-import HomeHeader from "../components/homeHeader";
+import Snippet from "../../components/snippet";
+import HomeHeader from "../../components/homeHeader";
 
 export default {
   components: {
@@ -32,25 +32,28 @@ export default {
     return {
       snippets: [
         {
-          titleKey: "snippets.what",
+          titleKey: "What is COVID-19",
           imageSrc: `${publicPath}img/what_icon.svg`,
           imageAlt: "icon",
           morePath: "what",
-          snippetText: "snippets.what_detail"
+          snippetText:
+            "COVID-19 is the new respiratory disease spreading around the world and it is caused by a coronavirus."
         },
         {
-          titleKey: "snippets.care",
+          titleKey: "How to care for someone",
           imageSrc: `${publicPath}img/care_icon.svg`,
           imageAlt: "icon",
           morePath: "care",
-          snippetText: "snippets.care_detail"
+          snippetText:
+            "Monitor the person for worsening symptoms, know the emergency warning signs."
         },
         {
-          titleKey: "snippets.resources",
+          titleKey: "Resources",
           imageSrc: `${publicPath}img/resources_icon.svg`,
           imageAlt: "icon",
           morePath: "resources",
-          snippetText: "snippets.resources_detail"
+          snippetText:
+            "Find more resources and downloadable material for print and distribution."
         }
       ]
     };

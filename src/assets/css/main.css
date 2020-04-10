@@ -1,0 +1,26 @@
+.detail-content {
+    top: 120px;
+    left: 10px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: Regular 20px/30px Roboto;
+    letter-spacing: 0px;
+    color: #000000;   
+    padding-top: 50px;
+}
+.content-sub-title {
+    top: 240px;
+    left: 0px;
+    width: auto;
+    height: auto;
+    text-align: left;
+    font: Bold 20px/30px Roboto;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.content-text {
+    padding-left: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+}

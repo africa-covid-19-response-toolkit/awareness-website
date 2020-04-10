@@ -11,7 +11,7 @@
   </b-col>
 </template>
 <script>
-import ResourceLinks from "../components/resourceLinks";
+import ResourceLinks from "../../components/resourceLinks";
 export default {
   components: {
     ResourceLinks
