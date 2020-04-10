@@ -61,9 +61,13 @@ export default {
   methods: {
     langSwitched(event) {
       let lang = event.target.value;
-      let segments = this.$route.path.split("/");
-      let currentPage = segments.length > 2 ? segments[3] : "";
-      this.$router.push(`/${lang}/${currentPage}`);
+      let path = this.$route.path.trimRight('/');
+      console.log(lang)
+      console.log(path);
+      let segments = path.split("/");
+      console.log(segments);
+      let currentPage = segments.length > 2 ? `/${segments[2]}` : "";
+      this.$router.push(`/${lang}${currentPage}`);
     }
   }
 };

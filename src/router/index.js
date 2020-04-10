@@ -16,7 +16,7 @@ const Sick_am = () => import("../views/am/sick_am");
 const What_am = () => import("../views/am/what_am");
 const NotFound_am = () => import("../views/am/not-found_am");
 const Resources_am = () => import("../views/am/resources_am");
-//import i18n from "../plugins/i18n";
+import i18n from "../plugins/i18n";
 //import en from "../locales/en";
 Vue.use(VueRouter);
 
@@ -26,19 +26,21 @@ const routes = [
   {
     path: "/",
     beforeEnter(to, from, next) {
-      //const lang = to.params.lang;
-      //if (!["am", "en"].includes(lang)) return next("en");
-      //if (i18n.locale !== lang) {
-      //i18n.locale = lang;
-      //}
       return next("/en");
     }
   },
   {
     path: "/en",
-    component: Home,
-    name: "home",
+    component: {
+      template: "<router-view></router-view>"
+    },
     children: [
+      {
+        path: "",
+        component: Home,
+        name: "home",
+        props: true
+      },
       {
         path: "care",
         component: Care,
@@ -70,7 +72,7 @@ const routes = [
         props: true
       },
       {
-        path: "*",
+        path: "not-found",
         name: "NotFound",
         component: NotFound
       }
@@ -78,9 +80,16 @@ const routes = [
   },
   {
     path: "/am",
-    component: Home_am,
-    name: "home_am",
+    component: {
+      template: "<router-view></router-view>"
+    },
     children: [
+      {
+        path: "",
+        component: Home_am,
+        name: "home_am",
+        props: true
+      },
       {
         path: "care",
         component: Care_am,
@@ -106,17 +115,25 @@ const routes = [
         props: true
       },
       {
-        path: "/am/resources",
+        path: "resources",
         component: Resources_am,
         name: "resources_am",
         props: true
       },
       {
-        path: "*",
+        path: "not-found",
         name: "NotFound_am",
         component: NotFound_am
       }
     ]
+  },
+  {
+    path: "*",
+    beforeEnter(to, from, next) {
+      const lang = i18n.locale;
+      if (!["am", "en"].includes(lang)) return next("/en/not-found");
+      return next(`/${lang}/not-found`);
+    }
   }
 ];
 
