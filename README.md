@@ -1,5 +1,7 @@
 # CoVID-19 Awareness Site
 
+## Copy the `.env.example` to `.env` and adjust the values as necessary.
+
 ## View current build (Builds from master branch)
 
 ```

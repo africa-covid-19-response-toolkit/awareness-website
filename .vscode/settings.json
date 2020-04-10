@@ -1,0 +1,9 @@
+{
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "eslint.validate": ["javascript", "javascriptreact", "vue"],
+  "editor.formatOnSave": true,
+  "eslint.format.enable": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}
