@@ -50,7 +50,7 @@
     <template v-slot:Body>
       <div class="container" style="text-align: left;">
         <h4>
-          Links to resources that you can download, print and redistribute
+          Links to resources that you can download, print and redistribute. Click to download
         </h4>
         <b-list-group flush="true" class="border-0">          
           <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1KAKhpvWq5yYrKxDhxZXThEp3jQUvKaKh" download
@@ -63,7 +63,7 @@
             >Avoid Physical Touching Tigrinya</b-list-group-item
           >
           <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=11kRvF31D056Jm1z5hnUGC7Wz5nJsj7D0" download
-            >TAXI DISTANCING (TIGRIGNA)</b-list-group-item
+            >Taxi distancing(Tigrinya)</b-list-group-item
           >         
           <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1klz807L7-LjrdXygiGjTpQLnoLNgM_KM" download
             >Avoid Physical touching</b-list-group-item
@@ -76,6 +76,9 @@
           >
           <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1k3ZSGOCIlXiye1EY7BtR9TcqcMzqmLHz" download
             >Stay at home Amharic</b-list-group-item
+          >
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1NDyUXRq-OcLVCF7MxerM0Ky6xVWLs11j" download
+            >Houses of worship</b-list-group-item
           >
         </b-list-group>
       </div>
