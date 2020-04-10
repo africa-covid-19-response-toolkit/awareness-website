@@ -4,70 +4,62 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
-      <div class="detail-content">
-        <div class="content-text">
-          COVID-19 is a new respiratory disease spreading around the world which is caused by a coronavirus that has not been previously identified in humans. COVID-19 is short for “Coronavirus Disease 2019.”
-          <ul>
-            <li>
-              The virus is thought to spread mainly between people who are in close contact with one another (about 2 meters) and through respiratory droplets produced when an infected person coughs or sneezes.
-            </li>
-            <li>
-              People are most contagious when they are the sickest. But those who don’t have a lot of symptoms can still pass the virus on to others.
-            </li>
-            <li>
-              There is currently no vaccine or cure for COVID-19 but researchers are working to find one.
-            </li>
-          </ul>
-        </div>
+      <div class="detail-content">        
         <span class="content-sub-title">
-          WHAT ARE THE COVID-19 SYMPTOMS?
+          KNOW HOW IT SPREADS
         </span>        
-          <div class="content-text">
-            Symptoms may appear 2 to 14 days after exposure and range from mild to severe illness.
+          <p class="content-text">            
             <ul>
               <li>
-                Coughing
+                There is currently no vaccine to prevent coronavirus disease 2019 (COVID-19).
               </li>
               <li>
-                Shortness of breath
+                The best way to prevent illness is to avoid being exposed to this virus.
               </li>
               <li>
-                Sore throat
+                The virus is thought to spread mainly from person-to-person.
               </li>
               <li>
-                Headache
+                Between people who are in close contact with one another (within about 6 feet).
               </li>
               <li>
-                Fever
+                Through respiratory droplets produced when an infected person coughs or sneezes.
+              </li>
+              <li>
+                These droplets can land in the mouths or noses of people who are nearby or possibly be inhaled into the lungs.
               </li>
             </ul>
-          </div> 
+          </p> 
           <span class="content-sub-title">
-            HOW IS THE COVID-19 COMPARED TO SEASONAL FLU?
+            TAKE STEPS TO PROTECT YOURSELF
           </span> 
-          <div class="content-text">
-            Both COVID-19 and seasonal flu cause fever, cough and aches. However, COVID-19 is much more severe than seasonal flu and no vaccine is available at this time whereas a vaccine is available to prevent some types of the flu.  Someone with a COVID-19 virus can infect approximately 2.5 people, which is higher than seasonal flu. 
-          </div>
+          <p class="content-text">
+            <ol>
+              <li>
+                Wash hands frequently with hot water and soap for 20 seconds
+              </li>
+              <li>
+                Social distancing
+              </li>
+              <li>
+                Clean and disinfect surfaces that can be contaminated
+              </li>
+              <li>
+                Wear face masks - Here is how to make your own!
+              </li>              
+            </ol>
+          </p>          
           <span class="content-sub-title">
-            HOW SEVERE IS COVID-19 INFECTION?
+            PLAN &amp; COPE
           </span> 
-          <div class="content-text">
-            There is a lot we don’t know about the COVID-19 infection. However, from the data we have, almost 80% of the infections appear asymptomatic or mild while 20% are severe and critical infections. So far, the mortality rate for COVID-19 is also higher than seasonal flu.
-          </div>
-          <span class="content-sub-title">
-            WHO IS AT HIGH RISK FOR COVID-19?
-          </span> 
-          <div class="content-text">
-            Everyone is at risk of getting COVID-19, but some people are at a higher risk of serious illness. <br/>
-            Generally, adults aged 65 and older and people of any age who have heart disease, lung disease, and diabetes with complications and obesity may be at higher risk for serious illness from COVID-19. However, it is possible for children and pregnant women to be infected, so they should also follow the proper prevention. There is not enough evidence to suggest that a mother who contracts COVID-19 will transmit the virus to her baby during pregnancy. 
-          </div>
-          <span class="content-sub-title">
-            WHAT TO DO IF I AM FEELING ANXIOUS OR STRESSED BECAUSE OF EVENTS RELATED TO COVID-19?
-          </span> 
-          <div class="content-text">
-            Take a break from social media and news. Do deep breaths exercises. Try doing simple stretching exercises at home  Keep talking to your family and friends and talk about how you are feeling
-          </div>
-      </div>     
+          <p class="content-text">
+            <ul>
+              <li>Plan and make decisions in advance of an illness.</li>
+              <li>Know how to protect and support the children in your care.</li>
+              <li>Find ways to cope with stress that will make you, your loved ones, and your community stronger.</li>
+            </ul>
+          </p>          
+      </div>
     </template>
   </Details>
 </template>

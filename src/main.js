@@ -8,7 +8,7 @@ import App from "./app.vue";
 import "./registerServiceWorker";
 import router from "./router/index";
 import i18n from "./plugins/i18n";
-import './assets/css/main.css';
+import "./assets/css/main.css";
 
 Vue.config.productionTip = false;
 Vue.filter("uppercase", value => {

@@ -4,70 +4,159 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
-      <div class="detail-content">
-        <div class="content-text">
-          COVID-19 is a new respiratory disease spreading around the world which is caused by a coronavirus that has not been previously identified in humans. COVID-19 is short for “Coronavirus Disease 2019.”
-          <ul>
-            <li>
-              The virus is thought to spread mainly between people who are in close contact with one another (about 2 meters) and through respiratory droplets produced when an infected person coughs or sneezes.
-            </li>
-            <li>
-              People are most contagious when they are the sickest. But those who don’t have a lot of symptoms can still pass the virus on to others.
-            </li>
-            <li>
-              There is currently no vaccine or cure for COVID-19 but researchers are working to find one.
-            </li>
-          </ul>
-        </div>
+      <div class="detail-content">        
         <span class="content-sub-title">
-          WHAT ARE THE COVID-19 SYMPTOMS?
+          እራስን መመርመሪያ መንገዶች
         </span>        
-          <div class="content-text">
-            Symptoms may appear 2 to 14 days after exposure and range from mild to severe illness.
+          <p class="content-text">
+            ውሳኔ ለመወሰንና ተገቢውን የህክምና አገልግሎት ለማግኘት የሚረዱ መመሪያዎች።
+          </p>
+          <span>
+            የህመም ምልክቶችን ይከታተሉ።
+          </span>
+          <p>
             <ul>
               <li>
-                Coughing
+                ሳልና ትኩሳት በአብዛኛው ጊዜ የሚታዩ የቫይረሱ ምልክቶች ናችው። መተንፈስ ካቃትዎ ከበድ ያለ ችግር ስለሚሆን የህክምና እርዳታ ያሻል።
               </li>
               <li>
-                Shortness of breath
+                የመተንፈስ ችግር ካጋጠምዎት የህክምና እርዳታ ይጠይቁ፤ ነገር ግን ቀድመው በስልክ ያሳውቁ።
               </li>
               <li>
-                Sore throat
+                የፊት መሸፈኛ ጭምል ያድርጉ። ወደ ህክምና ቦታ ሲሄዱ የፊት መሸፈኛ ጭምብል ያድርጉ፤  ከሌለዎት ሲያስሉ ወይም ሲያስነጥሱ ፊትዎን ይሸፍኑ። ከሌሎች ሰዎች ቢያንስ 2 ሜትር ያህል ራቅ ይበሉ።
               </li>
               <li>
-                Headache
+                ከጤና ጣብያ የሚሰጥዎትን የጥንቃቄ መመሪያዎች በሙሉ ይከተሉ። የአካባቢው ጤና ማእከል ሃላፊዎች የሚያሳዩትን ምልክቶች በማየት የተለያዩ መመሪያዎች ሊሰጡ ይችላሉ።
+              </li>              
+            </ul>
+          </p> 
+          <span class="content-sub-title">
+            ወደ ህክምና ለመሄድ ካልሆነ በስተቀር ከቤት አይውጡ።
+          </span> 
+          <p class="content-text">           
+            <ul>
+              <li>
+                አብዛኛው የ ኮቪድ-19 ተጠቂዎች አነስተኛ የህመም ስሜት ያለባቸውና ወደ ህክምና መሄድ ሳያስፈልጋቸው በቤት ውስጥ ይድናሉ። ወደ ህክምና ለመሄድ ካልሆነ በቀር ከቤት አይውጡ።  ህዝብ ወደሚበዛበት ቦታዎች በፍጹም አይሂዱ።
               </li>
               <li>
-                Fever
+                የህክምና ቦታዎች ከመሄድዎ በፊት ይደውሉ። የመተንፈስ ችግር ካጋጠምዎ የህክምና አገልግሎት ማግኘት አለብዎት። በተጨማሪም ድንገተኛ ህመም ካጋጠምዎትም ሆነ አጋጥሞኛል ብለው ካሰቡ  የህክምና አገልግሎት ያስፈልግዎታል።
+              </li>
+              <li>
+                የህዝብ ማመላለሻዎችንና ታክሲዎችን አይጠቀሙ።
+              </li>
+              <li>
+                ቤት ውስጥም ሆነው ከሌሎች ሰዎች ይራቁ፤ ይህም በቤት ዉስጥ ለይቶ መቆየት ተብሎ የሚጠራው ማለት ነው። ከተቻለ ቤት ውስጥ የተወሰነ የህመምተኛ ስፍራ ዉስጥ ይሁኑ። ከተቻለ የተለየ መጸዳጃ ቦታ ይጠቀሙ።
+              </li>  
+              <li>
+                ከሌሎች ሰዎች ጋር ከሆኑ የፊት መሸፈኛ ጭምብል ካለዎት መጠቀም አይርሱ(ወደ ህክምና ቦታ ሲሄዱም ጭምር)።
+              </li>            
+              <li>
+                በቂ እረፍት ይውሰዱ። ውሃና ሌሎች ፈሳሽ ነገሮች ይውሰዱ።
+              </li>
+              <li>
+                982 ወይም 8335 በመደወል ቫይረሱ እንደያዝዎት ወይም ይዞኛል ብለው እንደሚጠረጥሩ ይናገሩ።
               </li>
             </ul>
-          </div> 
+          </p> 
           <span class="content-sub-title">
-            HOW IS THE COVID-19 COMPARED TO SEASONAL FLU?
+            የህክምና እርዳታ የሚያስፈልግበት ጊዜ
           </span> 
-          <div class="content-text">
-            Both COVID-19 and seasonal flu cause fever, cough and aches. However, COVID-19 is much more severe than seasonal flu and no vaccine is available at this time whereas a vaccine is available to prevent some types of the flu.  Someone with a COVID-19 virus can infect approximately 2.5 people, which is higher than seasonal flu. 
-          </div>
+          <p class="content-text">
+            የኮቪድ-19 ድንገተኛ ቅድመ ምልክቶች ከተሰማዎት ባስቸኳይ የህክምና ርዳታ ይጠይቁ። ድንገተኛ ቅድመ ምልክቶች የሚከተሉትን ያካትታሉ:-
+            <ul>
+              <li>
+                የትንፋሽ እጥረት
+              </li>
+              <li>
+                የማያቋርጥ የደረት አካባቢ ህመም ወይም መጨናነቅ
+              </li>
+              <li>
+                ያልተለመደ ማዞር ወይም ለመነሳት አቅም ማጣት
+              </li>
+              <li>
+                ሰማያዊ(Bluish lips) የመሰለ(የገረጣ) ከንፈር ወይም ፊት
+              </li>
+              <li>
+                ከባድና የማያቋርጥ የራስ ማዞር ወይም የራስቅል መቅለል
+              </li>
+              <li>
+                የምላስ (ንግግር) መተሳሰር
+              </li>              
+            </ul>
+            እነዚህ ምልቶች ከተሰማዎት በ-982 ወይም 8335  ይደውሉ።
+          </p>
           <span class="content-sub-title">
-            HOW SEVERE IS COVID-19 INFECTION?
+            ሌሎችን ለመጠበቅ ወይም ላለመበከል የሚከተሉትን ጥንቃቄዎች ያድርጉ 
           </span> 
-          <div class="content-text">
-            There is a lot we don’t know about the COVID-19 infection. However, from the data we have, almost 80% of the infections appear asymptomatic or mild while 20% are severe and critical infections. So far, the mortality rate for COVID-19 is also higher than seasonal flu.
-          </div>
+          <p class="content-text">
+            ሲያስሉና ሲያስነጥሱ ይሸፈኑ
+            <ul>
+              <li>
+                ይሸፍኑ: ሲያስሉና ሲያስነጥሱ አፍና አፍንጫዎን በሶፍት ይሸፍኑ፣ ሶፍት ከሌለዎት ክንዶ ላይ ያስሉ ወይም ያስነጥሱ።
+              </li>
+              <li>
+                ይጣሉ: የተጠቀሙበትን ሶፍት ቆሻሻ መጣያ ውስጥ ይጣሉ
+              </li>
+            </ul>
+          </p>
           <span class="content-sub-title">
-            WHO IS AT HIGH RISK FOR COVID-19?
+            እጅዎን ቶሎ ቶሎ ይታጠቡ
           </span> 
-          <div class="content-text">
-            Everyone is at risk of getting COVID-19, but some people are at a higher risk of serious illness. <br/>
-            Generally, adults aged 65 and older and people of any age who have heart disease, lung disease, and diabetes with complications and obesity may be at higher risk for serious illness from COVID-19. However, it is possible for children and pregnant women to be infected, so they should also follow the proper prevention. There is not enough evidence to suggest that a mother who contracts COVID-19 will transmit the virus to her baby during pregnancy. 
-          </div>
+          <p class="content-text">
+            <ul>
+              <li>
+                እጅዎን ይታጠቡ : እጅዎን ቶሎ ቶሎ በሳሙናና በውሃ ለ20 ሰከንዶች ያክል ይታጠቡ። በተለይም አፍንጫዎትን ከጠረጉ፣ከሳሉ ወይም ካስነጠሱ፣ መፀዳጃ ቤት ከተጠቀሙ እንዲሁም ምግብ ከመመገብዎና ከመስራትዎ በፊት  እጅዎን መታጠብ በጣም አስፈላጊ ነው።
+              </li>
+              <li>
+                የእጅ ማፅጃ (ሳኒታይዘር ): ሳሙናና ውሃ ከሌለ 60 በመቶ ከአልኮል የተሰራ የእጅ ማፅጃ (ሳኒታይዘር )በመጠቀም እጆን ሙሉ በሙሉ በአግባቢ በማሸት እስኪደርቅ ያፅዱ።
+              </li>
+              <li>
+                ሳሙናና ውሃ: ሳሙናና ዉሃ መጠቀም ይበልጥ ተመራጭ ነው፤ በተለይ እጅዎ ላይ በዓይን የሚታይ ቆሻሻ ካለ።
+              </li>
+              <li>
+                ንክኪ ያስወግዱ: አይንዎን፣ አፍንጫዎንና  አፍዎን ባልታጠበ እጅዎ ከመንካት ይቆጠቡ።
+              </li>
+            </ul>
+          </p>
           <span class="content-sub-title">
-            WHAT TO DO IF I AM FEELING ANXIOUS OR STRESSED BECAUSE OF EVENTS RELATED TO COVID-19?
+            በቤት ውስጥ የሚገኙ የግል መጠቀሚያ ቁሳቁሶችን ከሌሎች ጋር አይጋሩ ፣ ቶሎ ቶሎም ያፅዷቸው።
           </span> 
-          <div class="content-text">
-            Take a break from social media and news. Do deep breaths exercises. Try doing simple stretching exercises at home  Keep talking to your family and friends and talk about how you are feeling
-          </div>
-      </div>     
+          <p class="content-text">
+            <ul>
+              <li>
+                ከሌሎች ጋር አይጋሩ: ሳህኖችን፣ የመጠጫ ብርጭቆና ኩባያዎች ፣የመመገቢያ እቃዎችን ፣ፎጣዎችን መጋራት እንዲሁም ከሰው ጋር አብሮ መተኛትን ያስወግዱ።
+              </li>
+              <li>
+                ከተጠቀሙ በኋላ በደምብ ይጠቡ:  ከላይ የተጠቀሱትን የመገልገያ እቃዎች ከተጠቀሙ በኋላ በሳሙናና በውሃ በደምብ አድርገው ይጠቡ ወይም እቃ ማጠብያ ማሽን ውስጥ ያስገቡ።
+              </li>
+              <li>
+                ደም፣ሰገራ ወይም ሌሎች የሰውነት ፈሳሾች ያረፉባቸውን ቦታዎች ያፅዱ።
+              </li>
+              <li>
+                የቤት ማፅጃዎች፡ ቤትዎንና ቁሳቁሶችን በሳሙና እና ውሃ ወይም ሌሎች የሳሙና አይነት ኬሚካል ማፅጃዎችን በመጠቀም ያፅዱ። ከዚያም የቤት ውስጥ ማጽጃ ኬሚካል ይጠቀሙ።
+              </li>
+            </ul>
+          </p>
+          <span class="content-sub-title">
+            እርዳታ ለማግኘት
+          </span> 
+          <p class="content-text">
+            <ul>
+              <li>
+                አስፈላጊ ውሳኔ ለመወሰንና ተገቢውን የህክምና እርዳታ ለማግኘት ይህን ይጠቀሙ
+              </li>
+              <li>
+                ባለሙያ ለማነጋገር ከፈለጉ በእነዚህ የጤና ጥበቃና የቴሌ ቀጥታ የድንገተኛ ቁጥሮች ይደውሉ።
+              </li>
+              <li>
+                ራስ ማገልገያ ዘዴዎች ቴሌግራም(Telegram)ዋትሳፕ(WhatsApp)ወይም አጭር መልእክት(SMS) በመጠቀም ጥያቄዎችን መጠየቅ ይችላሉ። 
+              </li>
+              <li>
+                 8335 ወይም 952 ላይ በመደወል የ ኮቪድ-19 መረጃ  ቅድመ-ቅጂ ማድረግ ይችላሉ።
+              </li>
+            </ul>
+          </p>
+      </div>
     </template>
   </Details>
 </template>

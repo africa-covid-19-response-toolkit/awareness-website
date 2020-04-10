@@ -49,7 +49,6 @@
     </template>
     <template v-slot:Body>
       <div class="container" style="text-align: left;">
-        <h4>{{$route.name}}</h4>
         <h4>
           Links to resources that you can download, print and redistribute
         </h4>

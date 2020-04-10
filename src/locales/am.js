@@ -4,9 +4,9 @@ export default {
   read_more: "ተጨማሪ ያንብቡ",
   back: "መነሻ ገጽ",
   buttons: {
-    sick: "በሂደት ላይ",
-    protection: "በሂደት ላይ",
-    monitoring: "በሂደት ላይ"
+    sick: "ካመመዎት የሚከተሉትን ያድርጉ",
+    protection: "እራስዎን እንዴት ከቫይረሱ መጠበቅ ይችላሉ?",
+    monitoring: "እስካሁን የተረጋገጡ ምርመራዎች መመልከቻ"
   },
   snippets: {
     what: "በሂደት ላይ",
