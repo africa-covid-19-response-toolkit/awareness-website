@@ -19,8 +19,8 @@
   </b-col>
 </template>
 <script>
-import Snippet from "../components/snippet";
-import HomeHeader from "../components/homeHeader";
+import Snippet from "../../components/snippet";
+import HomeHeader from "../../components/homeHeader";
 
 export default {
   components: {
@@ -35,21 +35,21 @@ export default {
           titleKey: "snippets.what",
           imageSrc: `${publicPath}img/what_icon.svg`,
           imageAlt: "icon",
-          morePath: "what",
+          morePath: "what_am",
           snippetText: "snippets.what_detail"
         },
         {
           titleKey: "snippets.care",
           imageSrc: `${publicPath}img/care_icon.svg`,
           imageAlt: "icon",
-          morePath: "care",
+          morePath: "care_am",
           snippetText: "snippets.care_detail"
         },
         {
           titleKey: "snippets.resources",
           imageSrc: `${publicPath}img/resources_icon.svg`,
           imageAlt: "icon",
-          morePath: "resources",
+          morePath: "resources_am",
           snippetText: "snippets.resources_detail"
         }
       ]

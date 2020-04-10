@@ -8,7 +8,11 @@
               <b-col col lg="1" class="pr-0"> <b-img :src="imgSrc"/></b-col>
               <b-col col lg="8" class="pl-0"> An official website </b-col>
               <b-col col lg="3">
-                <select v-model="$i18n.locale" class="bg-light">
+                <select
+                  v-model="$i18n.locale"
+                  class="bg-light"
+                  @change="langSwitched"
+                >
                   <option
                     v-for="(lang, i) in langs"
                     :key="`Lang${i}`"
@@ -53,6 +57,14 @@ export default {
       { name: "en", label: "English" }
     ],
     theme
-  })
+  }),
+  methods: {
+    langSwitched(event) {
+      let lang = event.target.value;
+      let segments = this.$route.path.split("/");
+      let currentPage = segments.length > 2 ? segments[3] : "";
+      this.$router.push(`/${lang}/${currentPage}`);
+    }
+  }
 };
 </script>

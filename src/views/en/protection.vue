@@ -4,13 +4,13 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
-      <p>{{ $t("care") }}</p>
+      <p>{{ $t("protection") }}</p>
     </template>
   </Details>
 </template>
 <script>
-import Details from "../components/details";
-import Header from "../components/header";
+import Details from "../../components/details";
+import Header from "../../components/header";
 export default {
   components: {
     Details,
@@ -18,7 +18,7 @@ export default {
   },
   data() {
     return {
-      imgSrc: `${process.env.BASE_URL}img/how-to-care-head.svg`
+      imgSrc: `${process.env.BASE_URL}img/how-to-protect-head.svg`
     };
   }
 };

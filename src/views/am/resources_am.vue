@@ -80,7 +80,7 @@
   </Details>
 </template>
 <script>
-import Details from "../components/details";
+import Details from "../../components/details";
 //import Header from "../components/header";
 export default {
   components: {
