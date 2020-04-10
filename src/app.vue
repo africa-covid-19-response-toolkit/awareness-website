@@ -5,17 +5,16 @@
         <nav>
           <b-row class="p-1 m-0 text-left" align-v="center">
             <b-col col lg="9" class="pl-0">
-              <b-img :src="imgSrc" />&nbsp; An offical website of the Ethiopian
-              government
+              <b-img :src="flagIcon" />
+              &nbsp; {{ $t("official_banner") }}
             </b-col>
             <b-col col lg="3">
               <select v-model="$i18n.locale" class="bg-light">
-                <option
-                  v-for="(lang, i) in langs"
-                  :key="`Lang${i}`"
-                  :value="lang.name"
-                  >{{ lang.label }}</option
-                >
+                <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.name">
+                  {{
+                  lang.label
+                  }}
+                </option>
               </select>
             </b-col>
           </b-row>
@@ -39,9 +38,9 @@ import theme from "./styles/theme";
 export default {
   name: "app",
   props: {
-    imgSrc: {
+    flagIcon: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/Flag.svg`
+      default: `${process.env.BASE_URL}img/icons/flag.svg`
     }
   },
   components: {
