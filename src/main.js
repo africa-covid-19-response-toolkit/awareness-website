@@ -6,7 +6,7 @@ import { ThemeProvider } from "vue-styled-components";
 import "./plugins/bootstrap-vue";
 import App from "./app.vue";
 import "./registerServiceWorker";
-import router from "./router";
+import router from "./router/index";
 import i18n from "./plugins/i18n";
 
 Vue.config.productionTip = false;

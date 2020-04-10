@@ -4,6 +4,7 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
+      <h4>{{$route.name}}</h4>
       <p>{{ $t("care") }}</p>
     </template>
   </Details>

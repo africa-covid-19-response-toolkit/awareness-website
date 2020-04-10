@@ -1,6 +1,7 @@
 <template>
   <b-col>
     <b-row> <HomeHeader /> </b-row>
+    <h4>{{$route.name}}</h4>
     <b-row style="background: #fafafa; padding-bottom: 50px">
       <b-row no-gutters>
         <b-col v-for="s in snippets" :key="s.titleKey">

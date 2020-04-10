@@ -1,7 +1,7 @@
 <template>
   <Details>
     <template v-slot:Header>
-      <b-jumbotron header="" lead="">
+      <b-jumbotron>
         <template v-slot:header>{{ $t("snippets.resources") }}</template>
 
         <template v-slot:lead>{{ $t("snippets.resources_detail") }} </template>
@@ -49,6 +49,7 @@
     </template>
     <template v-slot:Body>
       <div class="container" style="text-align: left;">
+        <h4>{{$route.name}}</h4>
         <h4>
           Links to resources that you can download, print and redistribute
         </h4>

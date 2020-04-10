@@ -7,6 +7,7 @@
         <p>{{ $t("page_not_found_desc") }}</p>
       </b-col>
     </b-row>
+    <h4>{{$route.name}}</h4>
     <ResourceLinks :showHomeBtn="true" />
   </b-col>
 </template>
