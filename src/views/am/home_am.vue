@@ -1,15 +1,14 @@
 <template>
   <b-col>
     <b-row> <HomeHeader /> </b-row>
-    <h4>{{$route.name}}</h4>
     <b-row style="background: #fafafa; padding-bottom: 50px">
       <b-row no-gutters>
         <b-col v-for="s in snippets" :key="s.titleKey">
           <Snippet
-            :title="$t(s.titleKey)"
+            :title="s.titleKey"
             :imageSrc="s.imageSrc"
             :imageAlt="s.imageAlt"
-            :snippetText="$t(s.snippetText)"
+            :snippetText="s.snippetText"
             :morePath="s.morePath"
             :buttonText="$t(s.buttonText)"
             :buttonUrl="s.buttonUrl"
@@ -33,25 +32,26 @@ export default {
     return {
       snippets: [
         {
-          titleKey: "snippets.what",
+          titleKey: "ኮቪድ-19 ምንድን ነው",
           imageSrc: `${publicPath}img/what_icon.svg`,
           imageAlt: "icon",
           morePath: "what_am",
-          snippetText: "snippets.what_detail"
+          snippetText:
+            "ኮቪድ-19 አዲስና በአለም ላይ እየተስፋፋ ያለ በመተንፈሻ አካል ላይ የሚከሰት ህመም ነው፤ በሽታው ከዚህ በፊት ሰዎች ላይ ተገኝቶ በማይታወቀው በኮሮናቫይረስ ምክንያት ተከስቷል።"
         },
         {
-          titleKey: "snippets.care",
+          titleKey: "ሰዎችን ለመንከባከብ",
           imageSrc: `${publicPath}img/care_icon.svg`,
           imageAlt: "icon",
           morePath: "care_am",
-          snippetText: "snippets.care_detail"
+          snippetText: "ምልክቶቹ የሚያገረሹበትን ግለሰብ በቅርብ ይከታተሉ። ድንገተኛ ቅድመ ምልክቶችን ይወቁ።"
         },
         {
-          titleKey: "snippets.resources",
+          titleKey: "ጠቃሚ መረጃዎች",
           imageSrc: `${publicPath}img/resources_icon.svg`,
           imageAlt: "icon",
           morePath: "resources_am",
-          snippetText: "snippets.resources_detail"
+          snippetText: "የተለያዩ ጠቃሚ መረጃዎችን እና አትመው ማሰራጨት የሚችሏቸው ጽሁፎችን እዚህ ማግኘት"
         }
       ]
     };

@@ -61,8 +61,8 @@ export default {
   methods: {
     langSwitched(event) {
       let lang = event.target.value;
-      let path = this.$route.path.trimRight('/');
-      console.log(lang)
+      let path = this.$route.path.trimRight("/");
+      console.log(lang);
       console.log(path);
       let segments = path.split("/");
       console.log(segments);

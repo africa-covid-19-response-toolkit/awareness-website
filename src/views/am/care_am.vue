@@ -4,70 +4,120 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
-      <div class="detail-content">
-        <div class="content-text">
-          COVID-19 is a new respiratory disease spreading around the world which is caused by a coronavirus that has not been previously identified in humans. COVID-19 is short for “Coronavirus Disease 2019.”
-          <ul>
-            <li>
-              The virus is thought to spread mainly between people who are in close contact with one another (about 2 meters) and through respiratory droplets produced when an infected person coughs or sneezes.
-            </li>
-            <li>
-              People are most contagious when they are the sickest. But those who don’t have a lot of symptoms can still pass the virus on to others.
-            </li>
-            <li>
-              There is currently no vaccine or cure for COVID-19 but researchers are working to find one.
-            </li>
-          </ul>
-        </div>
+       <div class="detail-content">        
         <span class="content-sub-title">
-          WHAT ARE THE COVID-19 SYMPTOMS?
+          ምልክቶቹ የሚያገረሹበትን ግለሰብ በቅርብ ይከታተሉ። ድንገተኛ ቅድመ ምልክቶችን ይወቁ።
         </span>        
-          <div class="content-text">
-            Symptoms may appear 2 to 14 days after exposure and range from mild to severe illness.
+          <p class="content-text">
+            ግለሰቦቹ የኮቪድ-19 ቅድመ ምልክቶችን ካሳዩ ወዲያውኑ  የህክምና ርዳታ ይጠይቁ። ድንገተኛ ቅድመ ምልክቶች የሚከተሉትን ያካትታሉ:-
             <ul>
               <li>
-                Coughing
+                 የትንፋሽ እጥረት
               </li>
               <li>
-                Shortness of breath
+                የማያቋርጥ የደረት አካባቢ ህመም ወይም መጨናነቅ
               </li>
               <li>
-                Sore throat
+                ያልተለመደ ማዞር ወይም ለመነሳት አቅም ማጣት
               </li>
               <li>
-                Headache
+                ሰማያዊ ወይም የገረጣ ከንፈር ወይም ፊት
               </li>
               <li>
-                Fever
+                ከባድና የማያቋርጥ የራስ ማዞር ወይም የራስቅል መቅለል
+              </li>
+              <li>
+                የምላስ (ንግግር) መተሳሰር
               </li>
             </ul>
-          </div> 
+            እነዚህ ምልክቶች ከተሰማዎት ይደውሉ።
+          </p> 
           <span class="content-sub-title">
-            HOW IS THE COVID-19 COMPARED TO SEASONAL FLU?
+            የታመሙ ሰዎችን በሚንከባከቡበት ጊዜ ቫይረሱ እንዳይሰራጭ ጥንቃቄ ያድርጉ።
           </span> 
-          <div class="content-text">
-            Both COVID-19 and seasonal flu cause fever, cough and aches. However, COVID-19 is much more severe than seasonal flu and no vaccine is available at this time whereas a vaccine is available to prevent some types of the flu.  Someone with a COVID-19 virus can infect approximately 2.5 people, which is higher than seasonal flu. 
-          </div>
+          <p class="content-text">
+            <ul>
+              <li>
+                ታማሚው በአንድ ክፍል ውስጥ፣ በተቻለ መጠን እርሶን ጨምሮ ከሌሎች ሰዎች ተለይቶ እንዲቆይ ያድርጉ።
+                <ul>
+                  <li>
+                    ከተቻለ የራሳቸው መታጠቢያና መፀደጃ ቤት እንዲኖራቸው ያድርጉ።
+                  </li>
+                  <li>
+                    ሳህኖች ፎጣዎችና መሰል የቤት ውስጥ ቁሳቁሶችን እንዲሁም መኝታን እንዳይጋሩ ያድርጉ።
+                  </li>
+                  <li>
+                    የፊት መሸፈኛ ጭምብል ከተገኘ እርሶን ጨምሮ ከሰዎች ጋር በሚገናኙበት ጊዜ እንዲጠቀሙ ያስደርጓቸው።
+                  </li>
+                  <li>
+                    ታማሚው የፊት መሸፈኛ ጭምብል ማድረግ የማይችሉ ከሆነና የፊት መሸፈኛ ጭምብል ካለ እርሶ አንድ ክፍል ውስጥ አብረዋቸው በሚሆኑበት ጊዜ የፊት መሸፈኛውን እርሶ ያድርጉ። የፊት መሸፈኛ ጭምብል ቤትዎ ውስጥ <a href="#">በዚህ</a> መልኩ መስራት ይችላሉ።
+                  </li>
+                  <li>
+                    ታማሚው በቤት ውስጥ ፣ መኪና ላይ ወይም በሃኪም ቤት ከሰዎች ጋር መገናኘት ካለባቸው የፊት መሸፈኛ ጭምብል ማድረግ አለባችው።
+                  </li>
+                </ul>
+              </li>
+              <li>
+                እጅዎን ቶሎ ቶሎ በሳሙናና ውሃ ለሃያ ሰከንዶች በተለይም ከህመምተኛ ሰው ጋር ከተገናኙ በኋላ ይታጠቡ። ሳሙናና ውሃ ባቅራቢያዎ ከሌለ 60 በመቶ የአልኮል ይዘት ያለው የእጅ ማፅጃ (ሳኒታይዘር) ይጠቀሙ። እጆችዎን ሙሉ በሙሉ አዳርሰው በማሸት እስኪደርቅ ያፅዱ።
+              </li>
+              <li>
+                አይንዎን፣ አፍንጫዎንና አፍዎን ባልታጠበ እጅዎ ከመንካት ይቆጠቡ።
+              </li>
+              <li>
+                 በየቀኑ እንደ ጠረጴዛ፣ የበር መያዣ እና የመሳሰሉትን ተደጋግመው የሚነኩ ነገሮችን ያፅዱ። እንደሚያፀዱት ቦታና ቁሳቁሶች ባህሪ መሰረት የሚረጩ የቤት ማፅጃ ፈሳሾችን ወይም መወልወያዎችን ይጠቀሙ።
+              </li>
+              <li>
+                 ልብሶችን በደምብ ይጠቡ። የሚታጠቡት ልብሶች ከሠውነት በሚወጡ ፅዳጆች ከቆሸሹ የእጅ ጓንት አድርገው ሰውነቶን እንዳይነካ ከቆሻሻው ይከላከሉ። ጓንቶን እንዳወለቁ እጅዎን ወዲያውኑ ይታጠቡ።
+              </li>
+              <li>
+                 በጣም አስፈላጊ ካልሆነ ጠያቂዎችን አይቀበሉ።
+              </li>
+              <li>
+                እንክብካቤያችውን ለሚመለከቱ ተጨማሪ ጥያቄዎች የጤና አገልግሎት ሰጪዎችን ወይም የአካባቢውን የጤና ቢሮ ይጠይቁ።
+              </li>
+            </ul>
+          </p>
           <span class="content-sub-title">
-            HOW SEVERE IS COVID-19 INFECTION?
+            ምልክቶችን ያስታሙ
           </span> 
-          <div class="content-text">
-            There is a lot we don’t know about the COVID-19 infection. However, from the data we have, almost 80% of the infections appear asymptomatic or mild while 20% are severe and critical infections. So far, the mortality rate for COVID-19 is also higher than seasonal flu.
-          </div>
+          <p class="content-text">
+            <ul>
+              <li>
+                ታማሚው በርከት ያለ ፈሳሽ በመጠጣት ተገቢዉን ፈሳሽ ማግኘቱን እና በቤቱ ማረፉን ያረጋግጡ
+              </li>
+              <li>
+                የሃኪም ትዕዛዝ የማያሻቸው መድሀኒቶች ምልክቶችን ሊያስታግሱ  ይችላሉ
+              </li>
+              <li>
+                ለብዙ ሰዎች ምልክቶቹ ለጥቂት ቀናት የሚቆዩ ሲሆኑ ከሳምንት በኋላ መሻሻል ይታያል።
+              </li>
+            </ul>
+          </p>
           <span class="content-sub-title">
-            WHO IS AT HIGH RISK FOR COVID-19?
+            ቤት ውስጥ (ተለይተው) መቆየት የሚቆምበት ጊዜ
           </span> 
-          <div class="content-text">
-            Everyone is at risk of getting COVID-19, but some people are at a higher risk of serious illness. <br/>
-            Generally, adults aged 65 and older and people of any age who have heart disease, lung disease, and diabetes with complications and obesity may be at higher risk for serious illness from COVID-19. However, it is possible for children and pregnant women to be infected, so they should also follow the proper prevention. There is not enough evidence to suggest that a mother who contracts COVID-19 will transmit the virus to her baby during pregnancy. 
-          </div>
-          <span class="content-sub-title">
-            WHAT TO DO IF I AM FEELING ANXIOUS OR STRESSED BECAUSE OF EVENTS RELATED TO COVID-19?
-          </span> 
-          <div class="content-text">
-            Take a break from social media and news. Do deep breaths exercises. Try doing simple stretching exercises at home  Keep talking to your family and friends and talk about how you are feeling
-          </div>
-      </div>     
+          <p class="content-text">
+            በኮቪድ 19 ተይዘው ቤት ውስጥ ራሳቸውን አግልለው የቆዩ ህሙማን በሚከተሉት ሁኔታዎች የቤት ውስጥ ቆይታቸውን ማቆም ይችላሉ።
+            <ul>
+              <li>
+                ቫይረሱ በውስጣቸው መኖር አለመኖሩን ለማወቅ <strong>የላብራቶሪ ምርመራ የማያደርጉ ሰዎች</strong> ከዚህ በታች የተገለጹትን ሁሉንም ቅድመ ሁኔታዎች ካሟሉ ብቻ ከቤት መውጣት ይችላሉ።
+                <ol>
+                  <li>ትኩሳት ቢያንስ ለ72 ሰአታት የሌለባቸው እንደሆነ (ይህም ማለት ለተከታታይ ሶስት ቀናት ምንም የትኩሳት መድሃኒት ሳይወስዱ ትኩሳቱ የሌለባቸው እንደሆነ)</li>
+                  <li>ሌሎች የቫይረሱ ምልክቶችም ከተሻሻሉ (ለምሳሌ የሳል እና የትንፋሽ ማጠር ምልክቶች ሲሻሻሉ)</li>
+                  <li>ምልክቶቹ ከታዩ ቢያንስ 7 ቀናት ካለፋቸው </li>
+                </ol>
+              </li>
+              <li>
+                ቫይረሱ በውስጣቸው መኖር አለመኖሩን ለማወቅ <strong>የላብራቶሪ ምርመራ ካደረጉ</strong> ከዚህ በታች የተገለጹትን ቅድመ ሁኔታዎች ካሟሉ ከቤት መውጣት ይችላሉ።
+                <ol>
+                  <li>ትኩሳት ከሌለባቸው (ምንም የትኩሳት መድሃኒት ሳይወስዱ ትኩሳቱ የሌለባቸው እንደሆነ)</li>
+                  <li>ሌሎች ምልክቶች የተሻሻሉ እንደሆነ (ለምሳሌ የሳል እና የትንፋሽ ማጠር ምልክቶች ሲሻሻሉ)</li>
+                  <li>በ24 ሰአት ልዩነት ውስጥ በተከታታይ 2 የቫይረሱ ምርመራ ውጤቶች ኔጋቲቨ ከሆኑ። ሃኪም በደንቡ መሰረት የሚሰጠው ምክር ይኖራል።</li>
+                </ol>
+              </li>
+            </ul>
+          </p>          
+      </div>
     </template>
   </Details>
 </template>

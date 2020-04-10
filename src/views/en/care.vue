@@ -4,70 +4,120 @@
       <Header :imgSrc="imgSrc" />
     </template>
     <template v-slot:Body>
-      <div class="detail-content">
-        <div class="content-text">
-          COVID-19 is a new respiratory disease spreading around the world which is caused by a coronavirus that has not been previously identified in humans. COVID-19 is short for “Coronavirus Disease 2019.”
-          <ul>
-            <li>
-              The virus is thought to spread mainly between people who are in close contact with one another (about 2 meters) and through respiratory droplets produced when an infected person coughs or sneezes.
-            </li>
-            <li>
-              People are most contagious when they are the sickest. But those who don’t have a lot of symptoms can still pass the virus on to others.
-            </li>
-            <li>
-              There is currently no vaccine or cure for COVID-19 but researchers are working to find one.
-            </li>
-          </ul>
-        </div>
+      <div class="detail-content">        
         <span class="content-sub-title">
-          WHAT ARE THE COVID-19 SYMPTOMS?
+          MONITOR THE PERSON FOR WORSENING SYMPTOMS. KNOW THE EMERGENCY WARNING SIGNS.
         </span>        
-          <div class="content-text">
-            Symptoms may appear 2 to 14 days after exposure and range from mild to severe illness.
+          <p class="content-text">
+            If they develop emergency warning signs for COVID-19, get medical attention immediately. Emergency warning signs include, but are not limited to:
             <ul>
               <li>
-                Coughing
+                Trouble breathing
               </li>
               <li>
-                Shortness of breath
+                Persistent pain or pressure in the chest
               </li>
               <li>
-                Sore throat
+                New confusion or inability to arouse
               </li>
               <li>
-                Headache
+                Bluish lips or face
               </li>
               <li>
-                Fever
+                Severe, constant dizziness or lightheadedness
+              </li>
+              <li>
+                Slurred speech
               </li>
             </ul>
-          </div> 
+            If you develop emergency warning signs, call xxx.
+          </p> 
           <span class="content-sub-title">
-            HOW IS THE COVID-19 COMPARED TO SEASONAL FLU?
+            PREVENT THE SPREAD OF GERMS WHEN CARING FOR SOMEONE WHO IS SICK
           </span> 
-          <div class="content-text">
-            Both COVID-19 and seasonal flu cause fever, cough and aches. However, COVID-19 is much more severe than seasonal flu and no vaccine is available at this time whereas a vaccine is available to prevent some types of the flu.  Someone with a COVID-19 virus can infect approximately 2.5 people, which is higher than seasonal flu. 
-          </div>
+          <p class="content-text">
+            <ul>
+              <li>
+                Have the person stay in one room, away from other people, including yourself, as much as possible.
+                <ul>
+                  <li>
+                    If possible, have them use a separate bathroom.
+                  </li>
+                  <li>
+                    Avoid sharing personal household items, like dishes, towels, and bedding
+                  </li>
+                  <li>
+                    If facemasks are available, have them wear a facemask when they are around people, including you.
+                  </li>
+                  <li>
+                    If the sick person can’t wear a facemask, you should wear one while in the same room with them, if facemasks are available. <a href="#">Here</a> is how to make your own mask at home.
+                  </li>
+                  <li>
+                    If the sick person needs to be around others (within the home, in a vehicle, or doctor’s office), they should wear a facemask.
+                  </li>
+                </ul>
+              </li>
+              <li>
+                Wash your hands often with soap and water for at least 20 seconds, especially after interacting with the sick person. If soap and water are not readily available, use a hand sanitizer that contains at least 60% alcohol. Cover all surfaces of your hands and rub them together until they feel dry.
+              </li>
+              <li>
+                Avoid touching your eyes, nose, and mouth.
+              </li>
+              <li>
+                Every day, clean all surfaces that are touched often, like counters, tabletops, and doorknobs. Use household cleaning sprays or wipes according to the label instructions.
+              </li>
+              <li>
+                Wash laundry thoroughly. If laundry is soiled, wear disposable gloves and keep the soiled items away from your body while laundering. Wash your hands immediately after removing gloves.
+              </li>
+              <li>
+                Avoid having any unnecessary visitors.
+              </li>
+              <li>
+                For any additional questions about their care, contact their healthcare provider or state or local health department.
+              </li>
+            </ul>
+          </p>
           <span class="content-sub-title">
-            HOW SEVERE IS COVID-19 INFECTION?
+            PROVIDE SYMPTOM TREATMENT
           </span> 
-          <div class="content-text">
-            There is a lot we don’t know about the COVID-19 infection. However, from the data we have, almost 80% of the infections appear asymptomatic or mild while 20% are severe and critical infections. So far, the mortality rate for COVID-19 is also higher than seasonal flu.
-          </div>
+          <p class="content-text">
+            <ul>
+              <li>
+                Make sure the sick person drinks a lot of fluids to stay hydrated and rests at home.
+              </li>
+              <li>
+                Over-the-counter medicines may help with symptoms.
+              </li>
+              <li>
+                For most people, symptoms last a few days and get better after a week.
+              </li>
+            </ul>
+          </p>
           <span class="content-sub-title">
-            WHO IS AT HIGH RISK FOR COVID-19?
+            WHEN TO END HOME ISOLATION (STAYING HOME)
           </span> 
-          <div class="content-text">
-            Everyone is at risk of getting COVID-19, but some people are at a higher risk of serious illness. <br/>
-            Generally, adults aged 65 and older and people of any age who have heart disease, lung disease, and diabetes with complications and obesity may be at higher risk for serious illness from COVID-19. However, it is possible for children and pregnant women to be infected, so they should also follow the proper prevention. There is not enough evidence to suggest that a mother who contracts COVID-19 will transmit the virus to her baby during pregnancy. 
-          </div>
-          <span class="content-sub-title">
-            WHAT TO DO IF I AM FEELING ANXIOUS OR STRESSED BECAUSE OF EVENTS RELATED TO COVID-19?
-          </span> 
-          <div class="content-text">
-            Take a break from social media and news. Do deep breaths exercises. Try doing simple stretching exercises at home  Keep talking to your family and friends and talk about how you are feeling
-          </div>
-      </div>     
+          <p class="content-text">
+            People with COVID-19 who have stayed home (are home isolated) can stop home isolation under the following conditions:
+            <ul>
+              <li>
+                <strong>If they will not have a test</strong> to determine if they are still contagious, they can leave home after all these three things have happened:
+                <ol>
+                  <li>They have had no fever for at least 72 hours (that is three full days of no fever without the use medicine that reduces fevers)</li>
+                  <li>Other symptoms have improved (for example, when their cough or shortness of breath have improved)</li>
+                  <li>At least 7 days have passed since their symptoms first appeared</li>
+                </ol>
+              </li>
+              <li>
+                <strong>If they will be tested</strong> to determine if they are still contagious, they can leave home after these three things have happened:
+                <ol>
+                  <li>They no longer have a fever (without the use medicine that reduces fevers)</li>
+                  <li>Other symptoms have improved (for example, when their cough or shortness of breath have improved)</li>
+                  <li>They received two negative tests in a row, 24 hours apart. Their doctor will follow CDC guidelines.</li>
+                </ol>
+              </li>
+            </ul>
+          </p>          
+      </div>
     </template>
   </Details>
 </template>
