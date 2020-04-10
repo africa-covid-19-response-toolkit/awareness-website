@@ -40,7 +40,7 @@ export default {
   props: {
     flagIcon: {
       type: String,
-      default: `${process.env.BASE_URL}img/flag.svg`
+      default: `${process.env.BASE_URL}img/coutnry-flag.svg`
     }
   },
   components: {
