@@ -52,27 +52,30 @@
         <h4>
           Links to resources that you can download, print and redistribute
         </h4>
-        <b-list-group flush="true" class="border-0">
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 1</b-list-group-item
+        <b-list-group flush="true" class="border-0">          
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1KAKhpvWq5yYrKxDhxZXThEp3jQUvKaKh" download
+            >Avoid Physical Touching Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 2</b-list-group-item
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1NRNVa99AJU2tDiWnGpZig0eoHMm9TQig" download
+            >Avoid Physical touching Oromiffa</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 3</b-list-group-item
+           <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1axu8EWxySnsCp3iFgsGsaO57L2dqsSED" download
+            >Avoid Physical Touching Tigrinya</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 4</b-list-group-item
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=11kRvF31D056Jm1z5hnUGC7Wz5nJsj7D0" download
+            >TAXI DISTANCING (TIGRIGNA)</b-list-group-item
+          >         
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1klz807L7-LjrdXygiGjTpQLnoLNgM_KM" download
+            >Avoid Physical touching</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 5</b-list-group-item
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1HJ9aMaXUUdreM9DPUrnZF1u4Jcj6mnNY" download
+            >Basic protective measures against the new coronavirus_Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 6</b-list-group-item
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1W0YuNcbV5gKL9jaA3dnBSkRgDUVsKzCc" download
+            >Physical Distancing Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="#some-link" download
-            >Downloadable Resource 7</b-list-group-item
+          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1k3ZSGOCIlXiye1EY7BtR9TcqcMzqmLHz" download
+            >Stay at home Amharic</b-list-group-item
           >
         </b-list-group>
       </div>
