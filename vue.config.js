@@ -10,15 +10,20 @@ module.exports = {
       filename: "index.html",
       // when using title option,
       // template title tag needs to be <title><%= htmlWebpackPlugin.options.title %></title>
-      title: process.env.VUE_APP_TITLE || "Index Page"
-      // // chunks to include on this page, by default includes
-      // // extracted common chunks and vendor chunks.
-      // chunks: ['chunk-vendors', 'chunk-common', 'index']
+      title: process.env.VUE_APP_TITLE || "CoVID-19 Awareness Site"
     }
-    // // when using the entry-only string format,
-    // // template is inferred to be `public/subpage.html`
-    // // and falls back to `public/index.html` if not found.
-    // // Output filename is inferred to be `subpage.html`.
-    // subpage: 'src/subpage/main.js'
+  },
+  runtimeCompiler: true,
+  pwa: {
+    name: process.env.VUE_APP_TITLE || "CoVID-19 Awareness Site",
+    start_url: "/",
+    themeColor: "rgb(4, 69, 176)",
+    msTileColor: "#000000",
+    appleMobileWebAppCapable: "yes",
+    appleMobileWebAppStatusBarStyle: "black",
+
+    // configure the workbox plugin
+    workboxPluginMode: "GenerateSW",
+    workboxOptions: {}
   }
 };

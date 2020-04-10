@@ -5,8 +5,8 @@ export default {
     large: "14px"
   },
   colors: {
-    link: "#0040b7",
-    primary: "black",
+    link: "rgb(4, 69, 176)",
+    primary: "#fff",
     secondary: "white",
     tertiary: "f5f5f5",
     background: "#0445b0",
