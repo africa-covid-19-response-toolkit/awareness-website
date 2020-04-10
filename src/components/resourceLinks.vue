@@ -18,7 +18,7 @@
         :href="b.url"
         :target="b.target"
         :to="
-          b.external ? null : { name: b.morePath, params: { header: b.text } }
+          b.external ? null : { path: b.morePath, params: { header: b.text } }
         "
       >
         <StyledLabel>{{ $t(b.text) }}</StyledLabel>
@@ -30,6 +30,7 @@
 <script>
 import { StyledLabel } from "../styles/StyledLabel";
 import { HOME_ROUTE_NAME } from "../router";
+import i18n from "../plugins/i18n";
 
 export default {
   components: {
@@ -46,11 +47,11 @@ export default {
     buttons: [
       {
         text: "buttons.protection",
-        morePath: "protection"
+        morePath: `/${i18n.locale}/protection`
       },
       {
         text: "buttons.sick",
-        morePath: "sick"
+        morePath: `/${i18n.locale}/sick`
       },
       {
         text: "buttons.monitoring",

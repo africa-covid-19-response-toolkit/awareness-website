@@ -1,4 +1,5 @@
 module.exports = {
+  runtimeCompiler: true,
   pwa: {
     name: "Covid19 - MoH",
     start_url: "/",
