@@ -1,24 +1,19 @@
 <template>
   <div>
-    <b-card
-      no-body
-      style="min-width:14rem; border:0; background: #fafafa"
-      class="pt-5"
-    >
+    <b-card no-body style="min-width:14rem; border:0; background: #fafafa" class="pt-5">
       <b-container>
         <b-col align-self="center">
-          <b-card-img :src="imageSrc" style="width:75px" />
+          <b-card-img :src="imageSrc" style="width: 75px" />
         </b-col>
         <b-col class="pt-3">
-          <b-card-text
-            style="font-size: 20px; font-weight: bold; text-align:left"
-            >{{ title }}</b-card-text
-          >
+          <b-card-text style="font-size: 20px; font-weight: bold; text-align:center">{{ title }}</b-card-text>
         </b-col>
         <b-col class="pt-3">
-          <b-card-text style="font-size: 14px; text-align:left">{{
+          <b-card-text align-self="center" style="font-size: 14px;">
+            {{
             snippetText
-          }}</b-card-text>
+            }}
+          </b-card-text>
         </b-col>
         <b-col class="pt-2">
           <router-link :to="{ name: morePath, params: { header: title } }">
@@ -43,7 +38,7 @@ export default {
     morePath: String,
     arrowImg: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/arrow-btn.svg`
+      default: `${process.env.BASE_URL}img/arrow-btn.svg`
     }
   }
 };

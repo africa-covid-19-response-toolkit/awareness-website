@@ -3,12 +3,12 @@
     <app-container id="app">
       <StyledNav>
         <nav>
-          <b-row class="p-1 m-0 text-left" align-v="center">
-            <b-col col lg="9" class="pl-0">
+          <b-row class="p-2 m-0 text-left" align-v="center">
+            <b-col col lg="10" sm="10">
               <b-img :src="flagIcon" />
               &nbsp; {{ $t("official_banner") }}
             </b-col>
-            <b-col col lg="3">
+            <b-col col lg="2" sm="2" align-self="right">
               <select v-model="$i18n.locale" class="bg-light">
                 <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.name">
                   {{
@@ -40,7 +40,7 @@ export default {
   props: {
     flagIcon: {
       type: String,
-      default: `${process.env.BASE_URL}img/icons/flag.svg`
+      default: `${process.env.BASE_URL}img/flag.svg`
     }
   },
   components: {
@@ -54,6 +54,18 @@ export default {
       { name: "en", label: "English" }
     ],
     theme
-  })
+  }),
+  methods: {
+    langSwitched(event) {
+      let lang = event.target.value;
+      let path = this.$route.path.trimRight("/");
+      console.log(lang);
+      console.log(path);
+      let segments = path.split("/");
+      console.log(segments);
+      let currentPage = segments.length > 2 ? `/${segments[2]}` : "";
+      this.$router.push(`/${lang}${currentPage}`);
+    }
+  }
 };
 </script>
