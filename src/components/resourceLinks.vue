@@ -4,7 +4,7 @@
       <b-button
         block
         size="lg"
-        style="background-color: #EDF0FF; border: 0.75px solid #3D3C99"
+        style="background-color: #0445b0; color: #fff"
         :to="{ name: homeRouteName }"
       >
         <StyledLabel>{{ $t("back") }}</StyledLabel>
@@ -14,7 +14,7 @@
       <b-button
         block
         size="lg"
-        style="background-color: #EDF0FF; border: 0.75px solid #3D3C99"
+        style="background-color: #0445b0; color: #fff"
         :href="b.url"
         :target="b.target"
         :to="
@@ -55,7 +55,7 @@ export default {
       },
       {
         text: "buttons.monitoring",
-        url: "https://www.covid19.et/Covid-19/Home/Dashboard/am",
+        url: "https://www.covid19.et/covid-19",
         target: "_blank",
         external: true
       }
