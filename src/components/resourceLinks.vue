@@ -1,12 +1,7 @@
 <template>
   <b-row class="justify-content-center" align-v="center">
     <b-col v-if="showHomeBtn" class="py-2" sm="7">
-      <b-button
-        block
-        size="lg"
-        style="background-color: #0445b0; color: #fff"
-        :to="{ name: homeRouteName }"
-      >
+      <b-button block size="lg" style="background-color: #0445b0; color: #fff" :to="{ path: home }">
         <StyledLabel>{{ $t("back") }}</StyledLabel>
       </b-button>
     </b-col>
@@ -17,9 +12,7 @@
         style="background-color: #0445b0; color: #fff"
         :href="b.url"
         :target="b.target"
-        :to="
-          b.external ? null : { path: b.morePath, params: { header: b.text } }
-        "
+        :to="b.external ? null : { path: b.morePath, params: { header: b.text } }"
       >
         <StyledLabel>{{ $t(b.text) }}</StyledLabel>
       </b-button>
@@ -29,7 +22,7 @@
 
 <script>
 import { StyledLabel } from "../styles/StyledLabel";
-import { HOME_ROUTE_NAME } from "../router";
+//import { HOME_ROUTE_NAME } from "../router";
 import i18n from "../plugins/i18n";
 
 export default {
@@ -43,7 +36,7 @@ export default {
     }
   },
   data: () => ({
-    homeRouteName: HOME_ROUTE_NAME,
+    home: `/${i18n.locale}`, //HOME_ROUTE_NAME,
     buttons: [
       {
         text: "buttons.protection",
@@ -55,7 +48,7 @@ export default {
       },
       {
         text: "buttons.monitoring",
-        url: "https://www.covid19.et/covid-19",
+        url: "https://www.covid19.et/Covid-19/Home/Dashboard/am",
         target: "_blank",
         external: true
       }
