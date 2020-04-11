@@ -14,7 +14,7 @@
           <span>
             MONITOR YOUR SYMPTOMS
           </span>
-          <p>
+          <p class="content-text">
             <ul>
               <li>
                 Common symptoms of COVID-19 include fever and cough. Trouble breathing is a more serious symptom that means you should get medical attention.
