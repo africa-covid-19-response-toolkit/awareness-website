@@ -9,7 +9,7 @@
               &nbsp; {{ $t("official_banner") }}
             </b-col>
             <b-col col lg="2" sm="2" align-self="right">
-              <select v-model="$i18n.locale" class="bg-light">
+              <select v-model="$i18n.locale" class="bg-light" @change="langSwitched">
                 <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.name">
                   {{ lang.label }}
                 </option>
@@ -35,18 +35,19 @@ import theme from "./styles/theme";
 
 export default {
   name: "app",
-  props: {
-    flagIcon: {
-      type: String,
-      default: `${process.env.BASE_URL}img/country-flag.svg`
-    }
-  },
+  //props: {
+  //flagIcon: {
+  //type: String,
+  //default: `${process.env.BASE_URL}img/country-flag.svg`
+  //}
+  //},
   components: {
     "app-container": AppContainer,
     "app-footer": Footer,
     StyledNav
   },
   data: () => ({
+    flagIcon: `${process.env.BASE_URL}img/country-flag.svg`,
     langs: [
       { name: "am", label: "Amharic" },
       { name: "en", label: "English" }
@@ -57,10 +58,7 @@ export default {
     langSwitched(event) {
       let lang = event.target.value;
       let path = this.$route.path.trimRight("/");
-      console.log(lang);
-      console.log(path);
       let segments = path.split("/");
-      console.log(segments);
       let currentPage = segments.length > 2 ? `/${segments[2]}` : "";
       this.$router.push(`/${lang}${currentPage}`);
     }
