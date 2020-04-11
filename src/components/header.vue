@@ -6,7 +6,7 @@ export default {
   props: {
     imgSrc: {
       type: String,
-      default: `${process.env.BASE_URL}img/hero-img.svg`
+      default: `${process.env.BASE_URL}img/hero.svg`
     }
   }
 };

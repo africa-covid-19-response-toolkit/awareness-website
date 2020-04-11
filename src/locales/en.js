@@ -1,12 +1,12 @@
 export default {
-  home_page_header: "Home page header goes here",
-  footer_title: "Developed by",
+  official_banner: "An official website of the Ethiopian Government",
+  footer_title: "© 2020 - Developed by INSA",
   read_more: "Read More",
   back: "Home",
   buttons: {
+    monitoring: "Monitoring Platform",
     sick: "What to do if you are sick",
-    protection: "How to protect yourself",
-    monitoring: "Montoring Platform"
+    protection: "How to protect yourself"
   },
   snippets: {
     what: "What is COVID-19?",
@@ -16,14 +16,11 @@ export default {
     protection_detail:
       "There is currently no vaccine to prevent coronavirus disease 2009 (COVID-19).",
     sick: "What to do if you are sick",
-    sick_detail:
-      "A guide to help you make decisions and seek appropriate medical care.",
+    sick_detail: "A guide to help you make decisions and seek appropriate medical care.",
     care: "How to care for someone",
-    care_detail:
-      "Monitor the person for worsening symptoms, know the emergency warning signs.",
+    care_detail: "Monitor the person for worsening symptoms, know the emergency warning signs.",
     resources: "Resources",
-    resources_detail:
-      "Find more resources and downloadable material for print and distribution.",
+    resources_detail: "Find more resources and downloadable material for print and distribution.",
     community_form: "Community Form",
     passenger_form: "Passenger Form",
     public_report: "Public Report",

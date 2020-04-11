@@ -1,48 +1,51 @@
 <template>
   <Details>
     <template v-slot:Header>
-      <b-jumbotron header="" lead="">
+      <b-jumbotron header lead>
         <template v-slot:header>{{ $t("snippets.resources") }}</template>
 
-        <template v-slot:lead>{{ $t("snippets.resources_detail") }} </template>
+        <template v-slot:lead>{{ $t("snippets.resources_detail") }}</template>
         <hr class="my-4" />
         <b-row>
           <b-col>
             <b-button
               block
               size="lg"
-              style="background-color: #EDF0FF; border: 0.75px solid #3D3C99; color:black;"
+              style="background-color: #0445b0; color: #fff;"
               href="https://community.covid19.et/"
               target="_blank"
-              ><StyledLabel>{{
-                $t("snippets.community_form")
-              }}</StyledLabel></b-button
             >
+              <StyledLabel>
+                {{ $t("snippets.community_form") }}
+              </StyledLabel>
+            </b-button>
           </b-col>
           <b-col>
             <b-button
               block
               size="lg"
-              style="background-color: #EDF0FF; border: 0.75px solid #3D3C99; color:black;"
+              style="background-color: #0445b0; color: #fff;"
               href="https://www.covid19.et/Covid-19/Volenteer/Create"
               target="_blank"
-              ><StyledLabel>{{
-                $t("snippets.volunteer_form")
-              }}</StyledLabel></b-button
             >
+              <StyledLabel>
+                {{ $t("snippets.volunteer_form") }}
+              </StyledLabel>
+            </b-button>
           </b-col>
           <b-col>
             <b-button
               block
               size="lg"
-              style="background-color: #EDF0FF; border: 0.75px solid #3D3C99; color:black;"
+              style="background-color: #0445b0; color: #fff;"
               variant="success"
               target="_blank"
               href="https://www.covid19.et/Covid-19/ReportCase/Create"
-              ><StyledLabel>{{
-                $t("snippets.public_report")
-              }}</StyledLabel></b-button
             >
+              <StyledLabel>
+                {{ $t("snippets.public_report") }}
+              </StyledLabel>
+            </b-button>
           </b-col>
         </b-row>
       </b-jumbotron>
@@ -50,8 +53,7 @@
     <template v-slot:Body>
       <div class="container" style="text-align: left;">
         <h4>
-          Links to resources that you can download, print and redistribute.
-          Click to download
+          Links to resources that you can download, print and redistribute. Click to download
         </h4>
         <b-list-group class="border-0">
           <b-list-group-item
@@ -88,8 +90,7 @@
             class="border-0"
             href="https://drive.google.com/uc?export=download&amp;id=1HJ9aMaXUUdreM9DPUrnZF1u4Jcj6mnNY"
             download
-            >Basic protective measures against the new
-            coronavirus_Amharic</b-list-group-item
+            >Basic protective measures against the new coronavirus_Amharic</b-list-group-item
           >
           <b-list-group-item
             class="border-0"
