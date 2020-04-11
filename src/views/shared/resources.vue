@@ -50,34 +50,63 @@
     <template v-slot:Body>
       <div class="container" style="text-align: left;">
         <h4>
-          Links to resources that you can download, print and redistribute. Click to download
+          Links to resources that you can download, print and redistribute.
+          Click to download
         </h4>
-        <b-list-group flush="true" class="border-0">          
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1KAKhpvWq5yYrKxDhxZXThEp3jQUvKaKh" download
+        <b-list-group class="border-0">
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1KAKhpvWq5yYrKxDhxZXThEp3jQUvKaKh"
+            download
             >Avoid Physical Touching Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1NRNVa99AJU2tDiWnGpZig0eoHMm9TQig" download
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1NRNVa99AJU2tDiWnGpZig0eoHMm9TQig"
+            download
             >Avoid Physical touching Oromiffa</b-list-group-item
           >
-           <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1axu8EWxySnsCp3iFgsGsaO57L2dqsSED" download
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1axu8EWxySnsCp3iFgsGsaO57L2dqsSED"
+            download
             >Avoid Physical Touching Tigrinya</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=11kRvF31D056Jm1z5hnUGC7Wz5nJsj7D0" download
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=11kRvF31D056Jm1z5hnUGC7Wz5nJsj7D0"
+            download
             >Taxi distancing(Tigrinya)</b-list-group-item
-          >         
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1klz807L7-LjrdXygiGjTpQLnoLNgM_KM" download
+          >
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1klz807L7-LjrdXygiGjTpQLnoLNgM_KM"
+            download
             >Avoid Physical touching</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1HJ9aMaXUUdreM9DPUrnZF1u4Jcj6mnNY" download
-            >Basic protective measures against the new coronavirus_Amharic</b-list-group-item
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1HJ9aMaXUUdreM9DPUrnZF1u4Jcj6mnNY"
+            download
+            >Basic protective measures against the new
+            coronavirus_Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1W0YuNcbV5gKL9jaA3dnBSkRgDUVsKzCc" download
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1W0YuNcbV5gKL9jaA3dnBSkRgDUVsKzCc"
+            download
             >Physical Distancing Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1k3ZSGOCIlXiye1EY7BtR9TcqcMzqmLHz" download
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1k3ZSGOCIlXiye1EY7BtR9TcqcMzqmLHz"
+            download
             >Stay at home Amharic</b-list-group-item
           >
-          <b-list-group-item class="border-0" href="https://drive.google.com/uc?export=download&id=1NDyUXRq-OcLVCF7MxerM0Ky6xVWLs11j" download
+          <b-list-group-item
+            class="border-0"
+            href="https://drive.google.com/uc?export=download&amp;id=1NDyUXRq-OcLVCF7MxerM0Ky6xVWLs11j"
+            download
             >Houses of worship</b-list-group-item
           >
         </b-list-group>
@@ -87,11 +116,12 @@
 </template>
 <script>
 import Details from "../../components/details";
+import { StyledLabel } from "../../styles/StyledLabel";
 //import Header from "../components/header";
 export default {
   components: {
-    Details //,
-    //Header
+    Details,
+    StyledLabel
   },
   data() {
     return {
