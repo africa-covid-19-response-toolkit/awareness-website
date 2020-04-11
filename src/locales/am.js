@@ -1,12 +1,12 @@
 export default {
   official_banner: "እውነተኛ የኢትዮጵያ መንግሥት ኢንፎርሜሽን መረብ",
-  footer_title: "© 2020 - በኢንፎርሜሽን መረብ ደህንነት ኤጀንሲ የበለፀገ",
+  footer_title: "© 2020 - በኢንፎርሜሽን መረብ ደህንነት ኤጀንሲ የተገነባ",
   read_more: "ተጨማሪ ያንብቡ",
   back: "መነሻ ገጽ",
   buttons: {
     sick: "ካመመዎት የሚከተሉትን ያድርጉ",
     protection: "እራስዎን እንዴት ከቫይረሱ መጠበቅ ይችላሉ?",
-    monitoring: "እስካሁን የተረጋገጡ ምርመራዎች መመልከቻ"
+    monitoring: "የተቀናጀ የኮቪድ-19 መቆጣጠሪያ ስርዓት"
   },
   snippets: {
     what: "በሂደት ላይ",
@@ -29,6 +29,5 @@ export default {
   sick: "በሂደት ላይ",
   what: "በሂደት ላይ",
   page_not_found_title: "ገጹ አልተገኘም",
-  page_not_found_desc:
-    "ይቅርታ ፣ የሚፈልጉትን ገጽ ማግኘት አልቻልንም ፡፡ ከሚከተሉት ገጾች ውስጥ አንዱን ይሞክሩ"
+  page_not_found_desc: "ይቅርታ ፣ የሚፈልጉትን ገጽ ማግኘት አልቻልንም ፡፡ ከሚከተሉት ገጾች ውስጥ አንዱን ይሞክሩ"
 };
