@@ -1,20 +1,22 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
+//Shared
+const NotFound = () => import("../views/shared/not-found");
+const Resources = () => import("../views/shared/resources");
 //English
 const Care = () => import("../views/en/care");
 const Home = () => import("../views/en/home");
 const Protection = () => import("../views/en/protection");
 const Sick = () => import("../views/en/sick");
 const What = () => import("../views/en/what");
-const NotFound = () => import("../views/en/not-found");
-const Resources = () => import("../views/shared/resources");
+
 //Amharic
 const Home_am = () => import("../views/am/home_am");
 const Care_am = () => import("../views/am/care_am");
 const Protection_am = () => import("../views/am/protection_am");
 const Sick_am = () => import("../views/am/sick_am");
 const What_am = () => import("../views/am/what_am");
-const NotFound_am = () => import("../views/am/not-found_am");
+//const NotFound_am = () => import("../views/am/not-found_am");
 //const Resources_am = () => import("../views/am/resources_am");
 import i18n from "../plugins/i18n";
 //import en from "../locales/en";
@@ -123,7 +125,7 @@ const routes = [
       {
         path: "not-found",
         name: "NotFound_am",
-        component: NotFound_am
+        component: NotFound
       }
     ]
   },
