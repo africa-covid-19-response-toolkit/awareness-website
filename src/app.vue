@@ -11,9 +11,7 @@
             <b-col col lg="2" sm="2" align-self="right">
               <select v-model="$i18n.locale" class="bg-light">
                 <option v-for="(lang, i) in langs" :key="`Lang${i}`" :value="lang.name">
-                  {{
-                  lang.label
-                  }}
+                  {{ lang.label }}
                 </option>
               </select>
             </b-col>
@@ -40,7 +38,7 @@ export default {
   props: {
     flagIcon: {
       type: String,
-      default: `${process.env.BASE_URL}img/coutnry-flag.svg`
+      default: `${process.env.BASE_URL}img/country-flag.svg`
     }
   },
   components: {
