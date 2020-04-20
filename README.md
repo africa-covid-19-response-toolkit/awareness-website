@@ -1,9 +1,10 @@
 <div align="center">
+  <img alt="ACRT Website" src="acrt_19_awareness_website.png" width="650px">
+</div>
+
 <!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
 [![All Contributors](https://img.shields.io/badge/all_contributors-2-orange.svg?style=flat-square)](#contributors-)
 <!-- ALL-CONTRIBUTORS-BADGE:END -->
-  <img alt="ACRT Website" src="acrt_19_awareness_website.png" width="650px">
-</div>
 
 # CoVID-19 Awareness Site
 
